@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.001618] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002264] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.042006] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.045319] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nyp-bot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/nyp-bot'), ('OLDPWD', '/home/nyp-bot'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'nyp-bot'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nyp-bot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nypbot-desktop:@/tmp/.ICE-unix/1140,unix/nypbot-desktop:/tmp/.ICE-unix/1140'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d96bb550_e2ad_4d4b_b80a_9c07890010ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8597F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.098493] (-) TimerEvent: {}
+[0.199837] (-) TimerEvent: {}
+[0.300985] (-) TimerEvent: {}
+[0.401906] (-) TimerEvent: {}
+[0.503315] (-) TimerEvent: {}
+[0.604541] (-) TimerEvent: {}
+[0.705762] (-) TimerEvent: {}
+[0.806971] (-) TimerEvent: {}
+[0.908150] (-) TimerEvent: {}
+[1.008972] (-) TimerEvent: {}
+[1.109816] (-) TimerEvent: {}
+[1.126371] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.210113] (-) TimerEvent: {}
+[1.311380] (-) TimerEvent: {}
+[1.412460] (-) TimerEvent: {}
+[1.513462] (-) TimerEvent: {}
+[1.614788] (-) TimerEvent: {}
+[1.716206] (-) TimerEvent: {}
+[1.817231] (-) TimerEvent: {}
+[1.867382] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.912279] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.917335] (-) TimerEvent: {}
+[2.018150] (-) TimerEvent: {}
+[2.118935] (-) TimerEvent: {}
+[2.220389] (-) TimerEvent: {}
+[2.286924] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.314476] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.319156] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.320340] (-) TimerEvent: {}
+[2.321886] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.338825] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.420616] (-) TimerEvent: {}
+[2.521574] (-) TimerEvent: {}
+[2.622543] (-) TimerEvent: {}
+[2.715318] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.722686] (-) TimerEvent: {}
+[2.744225] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.745208] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.746812] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.822933] (-) TimerEvent: {}
+[2.893210] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[2.893910] (ydlidar_ros2_driver) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.894264] (ydlidar_ros2_driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.894574] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.894869] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[2.895351] (ydlidar_ros2_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.895764] (ydlidar_ros2_driver) StderrLine: {'line': b'  any of the following names:\n'}
+[2.896167] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[2.896550] (ydlidar_ros2_driver) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.897014] (ydlidar_ros2_driver) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.897474] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[2.897982] (ydlidar_ros2_driver) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.898516] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.898904] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.899390] (ydlidar_ros2_driver) StderrLine: {'line': b'  has been installed.\n'}
+[2.899713] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[2.900029] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[2.900348] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.900692] (ydlidar_ros2_driver) StdoutLine: {'line': b'See also "/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".\n'}
+[2.904480] (ydlidar_ros2_driver) CommandEnded: {'returncode': 1}
+[2.923440] (-) TimerEvent: {}
+[3.012436] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 1}
+[3.015662] (-) EventReactorShutdown: {}

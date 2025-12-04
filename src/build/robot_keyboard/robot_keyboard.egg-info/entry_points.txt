@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_test = robot_keyboard.keyboard_test:main
+

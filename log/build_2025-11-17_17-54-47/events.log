@@ -1,0 +1,842 @@
+[0.000000] (-) TimerEvent: {}
+[0.000706] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.001979] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.099046] (-) TimerEvent: {}
+[0.199655] (-) TimerEvent: {}
+[0.300552] (-) TimerEvent: {}
+[0.310866] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.315114] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.318203] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nyp-bot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap/lib:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd/lib:/home/nyp-bot/ros2_humble/install/mcap_vendor/lib:/home/nyp-bot/ros2_humble/install/rviz_common/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins/lib:/home/nyp-bot/ros2_humble/install/rosbag2_compression/lib:/home/nyp-bot/ros2_humble/install/rosbag2_cpp/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage/lib:/home/nyp-bot/ros2_humble/install/camera_info_manager/lib:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers/lib:/home/nyp-bot/ros2_humble/install/interactive_markers/lib:/home/nyp-bot/ros2_humble/install/visualization_msgs/lib:/home/nyp-bot/ros2_humble/install/robot_state_publisher/lib:/home/nyp-bot/ros2_humble/install/kdl_parser/lib:/home/nyp-bot/ros2_humble/install/urdf/lib:/home/nyp-bot/ros2_humble/install/urdfdom/lib:/home/nyp-bot/ros2_humble/install/tf2_ros/lib:/home/nyp-bot/ros2_humble/install/tf2_msgs/lib:/home/nyp-bot/ros2_humble/install/test_msgs/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata/lib:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces/lib:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp/lib:/home/nyp-bot/ros2_humble/install/image_transport/lib:/home/nyp-bot/ros2_humble/install/message_filters/lib:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp/lib:/home/nyp-bot/ros2_humble/install/composition/lib:/home/nyp-bot/ros2_humble/install/laser_geometry/lib:/home/nyp-bot/ros2_humble/install/rclpy/lib:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp/lib:/home/nyp-bot/ros2_humble/install/rclcpp_action/lib:/home/nyp-bot/ros2_humble/install/rcl_action/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set/lib:/home/nyp-bot/ros2_humble/install/example_interfaces/lib:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces/lib:/home/nyp-bot/ros2_humble/install/action_msgs/lib:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs/lib:/home/nyp-bot/ros2_humble/install/trajectory_msgs/lib:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp/lib:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition/lib:/home/nyp-bot/ros2_humble/install/rclcpp_components/lib:/home/nyp-bot/ros2_humble/install/rclcpp/lib:/home/nyp-bot/ros2_humble/install/rcl_lifecycle/lib:/home/nyp-bot/ros2_humble/install/libstatistics_collector/lib:/home/nyp-bot/ros2_humble/install/rcl/lib:/home/nyp-bot/ros2_humble/install/rmw_implementation/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp/lib:/home/nyp-bot/ros2_humble/install/tracetools/lib:/home/nyp-bot/ros2_humble/install/qt_gui_cpp/lib:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl/lib:/home/nyp-bot/ros2_humble/install/tf2/lib:/home/nyp-bot/ros2_humble/install/stereo_msgs/lib:/home/nyp-bot/ros2_humble/install/std_srvs/lib:/home/nyp-bot/ros2_humble/install/shape_msgs/lib:/home/nyp-bot/ros2_humble/install/map_msgs/lib:/home/nyp-bot/ros2_humble/install/sensor_msgs/lib:/home/nyp-bot/ros2_humble/install/nav_msgs/lib:/home/nyp-bot/ros2_humble/install/diagnostic_msgs/lib:/home/nyp-bot/ros2_humble/install/geometry_msgs/lib:/home/nyp-bot/ros2_humble/install/actionlib_msgs/lib:/home/nyp-bot/ros2_humble/install/std_msgs/lib:/home/nyp-bot/ros2_humble/install/statistics_msgs/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog/lib:/home/nyp-bot/ros2_humble/install/rviz_rendering/lib:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/nyp-bot/ros2_humble/install/rttest/lib:/home/nyp-bot/ros2_humble/install/rosgraph_msgs/lib:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces/lib:/home/nyp-bot/ros2_humble/install/rmw_dds_common/lib:/home/nyp-bot/ros2_humble/install/composition_interfaces/lib:/home/nyp-bot/ros2_humble/install/rcl_interfaces/lib:/home/nyp-bot/ros2_humble/install/pendulum_msgs/lib:/home/nyp-bot/ros2_humble/install/lifecycle_msgs/lib:/home/nyp-bot/ros2_humble/install/builtin_interfaces/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/lib:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser/lib:/home/nyp-bot/ros2_humble/install/rmw/lib:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c/lib:/home/nyp-bot/ros2_humble/install/resource_retriever/lib:/home/nyp-bot/ros2_humble/install/class_loader/lib:/home/nyp-bot/ros2_humble/install/rcpputils/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_noop/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_interface/lib:/home/nyp-bot/ros2_humble/install/rcutils/lib:/home/nyp-bot/ros2_humble/install/performance_test_fixture/lib:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib:/home/nyp-bot/ros2_humble/install/mimick_vendor/lib:/home/nyp-bot/ros2_humble/install/libyaml_vendor/lib:/home/nyp-bot/ros2_humble/install/keyboard_handler/lib:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib:/home/nyp-bot/ros2_humble/install/cyclonedds/lib:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib:/home/nyp-bot/ros2_humble/install/fastrtps/lib:/home/nyp-bot/ros2_humble/install/fastcdr/lib:/home/nyp-bot/ros2_humble/install/ament_index_cpp/lib'), ('HOME', '/home/nyp-bot'), ('OLDPWD', '/home/nyp-bot/ydlidar_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nyp-bot/ydlidar_ros2_driver-master/install:/home/nyp-bot/ros2_humble/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nyp-bot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nyp-bot/ros2_humble/install/urdfdom/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/urdfdom/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/urdfdom_headers/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/test_osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_math6_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_math6_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_cmake2_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_cmake2_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/cyclonedds/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/gmock_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/gmock_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/gtest_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nyp-bot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nyp-bot/ros2_humble/install/urdfdom/bin:/home/nyp-bot/ros2_humble/install/rqt_graph/bin:/home/nyp-bot/ros2_humble/install/rqt_gui/bin:/home/nyp-bot/ros2_humble/install/ros2cli/bin:/home/nyp-bot/ros2_humble/install/ament_uncrustify/bin:/home/nyp-bot/ros2_humble/install/tlsf_cpp/bin:/home/nyp-bot/ros2_humble/install/rttest/bin:/home/nyp-bot/ros2_humble/install/rosidl_cli/bin:/home/nyp-bot/ros2_humble/install/launch_testing/bin:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/bin:/home/nyp-bot/ros2_humble/install/cyclonedds/bin:/home/nyp-bot/ros2_humble/install/iceoryx_posh/bin:/home/nyp-bot/ros2_humble/install/fastrtps/bin:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/bin:/home/nyp-bot/ros2_humble/install/ament_xmllint/bin:/home/nyp-bot/ros2_humble/install/ament_pyflakes/bin:/home/nyp-bot/ros2_humble/install/ament_pycodestyle/bin:/home/nyp-bot/ros2_humble/install/ament_pep257/bin:/home/nyp-bot/ros2_humble/install/ament_pclint/bin:/home/nyp-bot/ros2_humble/install/ament_mypy/bin:/home/nyp-bot/ros2_humble/install/ament_lint_cmake/bin:/home/nyp-bot/ros2_humble/install/ament_flake8/bin:/home/nyp-bot/ros2_humble/install/ament_copyright/bin:/home/nyp-bot/ros2_humble/install/ament_index_python/bin:/home/nyp-bot/ros2_humble/install/ament_cpplint/bin:/home/nyp-bot/ros2_humble/install/ament_cppcheck/bin:/home/nyp-bot/ros2_humble/install/ament_clang_tidy/bin:/home/nyp-bot/ros2_humble/install/ament_clang_format/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nypbot-desktop:@/tmp/.ICE-unix/1122,unix/nypbot-desktop:/tmp/.ICE-unix/1122'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02b1a9ec_5233_4a61_b6ab_993f5cb5ecca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R4NYF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/nyp-bot/ydlidar_ros2_driver-master/install/ydlidar_ros2_driver:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd:/home/nyp-bot/ros2_humble/install/mcap_vendor:/home/nyp-bot/ros2_humble/install/zstd_vendor:/home/nyp-bot/ros2_humble/install/rviz_visual_testing_framework:/home/nyp-bot/ros2_humble/install/rviz_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins:/home/nyp-bot/ros2_humble/install/rosbag2_compression:/home/nyp-bot/ros2_humble/install/rosbag2_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_storage:/home/nyp-bot/ros2_humble/install/camera_info_manager:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers:/home/nyp-bot/ros2_humble/install/yaml_cpp_vendor:/home/nyp-bot/ros2_humble/install/interactive_markers:/home/nyp-bot/ros2_humble/install/common_interfaces:/home/nyp-bot/ros2_humble/install/visualization_msgs:/home/nyp-bot/ros2_humble/install/robot_state_publisher:/home/nyp-bot/ros2_humble/install/kdl_parser:/home/nyp-bot/ros2_humble/install/urdf:/home/nyp-bot/ros2_humble/install/urdf_parser_plugin:/home/nyp-bot/ros2_humble/install/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_launch:/home/nyp-bot/ros2_humble/install/topic_monitor:/home/nyp-bot/ros2_humble/install/tf2_tools:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs:/home/nyp-bot/ros2_humble/install/tf2_kdl:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs:/home/nyp-bot/ros2_humble/install/examples_tf2_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py:/home/nyp-bot/ros2_humble/install/tf2_eigen:/home/nyp-bot/ros2_humble/install/tf2_bullet:/home/nyp-bot/ros2_humble/install/tf2_ros:/home/nyp-bot/ros2_humble/install/tf2_py:/home/nyp-bot/ros2_humble/install/tf2_msgs:/home/nyp-bot/ros2_humble/install/test_msgs:/home/nyp-bot/ros2_humble/install/sros2_cmake:/home/nyp-bot/ros2_humble/install/sros2:/home/nyp-bot/ros2_humble/install/rqt_topic:/home/nyp-bot/ros2_humble/install/rqt_srv:/home/nyp-bot/ros2_humble/install/rqt_shell:/home/nyp-bot/ros2_humble/install/rqt_service_caller:/home/nyp-bot/ros2_humble/install/rqt_reconfigure:/home/nyp-bot/ros2_humble/install/rqt_py_console:/home/nyp-bot/ros2_humble/install/rqt_publisher:/home/nyp-bot/ros2_humble/install/rqt_plot:/home/nyp-bot/ros2_humble/install/rqt_action:/home/nyp-bot/ros2_humble/install/rqt_msg:/home/nyp-bot/ros2_humble/install/rqt_console:/home/nyp-bot/ros2_humble/install/rqt_py_common:/home/nyp-bot/ros2_humble/install/rqt_graph:/home/nyp-bot/ros2_humble/install/rqt_gui_py:/home/nyp-bot/ros2_humble/install/rqt_gui:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/nyp-bot/ros2_humble/install/ros_testing:/home/nyp-bot/ros2_humble/install/ros2trace:/home/nyp-bot/ros2_humble/install/ros2topic:/home/nyp-bot/ros2_humble/install/ros2test:/home/nyp-bot/ros2_humble/install/ros2component:/home/nyp-bot/ros2_humble/install/ros2param:/home/nyp-bot/ros2_humble/install/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2service:/home/nyp-bot/ros2_humble/install/ros2run:/home/nyp-bot/ros2_humble/install/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2launch:/home/nyp-bot/ros2_humble/install/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2node:/home/nyp-bot/ros2_humble/install/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2interface:/home/nyp-bot/ros2_humble/install/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces:/home/nyp-bot/ros2_humble/install/ros2action:/home/nyp-bot/ros2_humble/install/ros2cli:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp:/home/nyp-bot/ros2_humble/install/image_transport:/home/nyp-bot/ros2_humble/install/message_filters:/home/nyp-bot/ros2_humble/install/launch_testing_ros:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp:/home/nyp-bot/ros2_humble/install/composition:/home/nyp-bot/ros2_humble/install/launch_ros:/home/nyp-bot/ros2_humble/install/laser_geometry:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/demo_nodes_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py:/home/nyp-bot/ros2_humble/install/rclpy:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp:/home/nyp-bot/ros2_humble/install/rclcpp_action:/home/nyp-bot/ros2_humble/install/rcl_action:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclcpp_async_client:/home/nyp-bot/ros2_humble/install/example_interfaces:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces:/home/nyp-bot/ros2_humble/install/action_msgs:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs:/home/nyp-bot/ros2_humble/install/ament_lint_common:/home/nyp-bot/ros2_humble/install/ament_cmake_uncrustify:/home/nyp-bot/ros2_humble/install/ament_uncrustify:/home/nyp-bot/ros2_humble/install/uncrustify_vendor:/home/nyp-bot/ros2_humble/install/trajectory_msgs:/home/nyp-bot/ros2_humble/install/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_read:/home/nyp-bot/ros2_humble/install/topic_statistics_demo:/home/nyp-bot/ros2_humble/install/tlsf_cpp:/home/nyp-bot/ros2_humble/install/test_tracetools:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_test_common:/home/nyp-bot/ros2_humble/install/ros2lifecycle_test_fixtures:/home/nyp-bot/ros2_humble/install/lifecycle:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition:/home/nyp-bot/ros2_humble/install/rclcpp_components:/home/nyp-bot/ros2_humble/install/intra_process_demo:/home/nyp-bot/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_timer:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclcpp_cbg_executor:/home/nyp-bot/ros2_humble/install/dummy_sensors:/home/nyp-bot/ros2_humble/install/dummy_map_server:/home/nyp-bot/ros2_humble/install/rclcpp:/home/nyp-bot/ros2_humble/install/rcl_lifecycle:/home/nyp-bot/ros2_humble/install/libstatistics_collector:/home/nyp-bot/ros2_humble/install/rcl:/home/nyp-bot/ros2_humble/install/rmw_implementation:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp:/home/nyp-bot/ros2_humble/install/tracetools:/home/nyp-bot/ros2_humble/install/tlsf:/home/nyp-bot/ros2_humble/install/tinyxml_vendor:/home/nyp-bot/ros2_humble/install/qt_gui_core:/home/nyp-bot/ros2_humble/install/qt_gui_cpp:/home/nyp-bot/ros2_humble/install/pluginlib:/home/nyp-bot/ros2_humble/install/tinyxml2_vendor:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl:/home/nyp-bot/ros2_humble/install/tf2:/home/nyp-bot/ros2_humble/install/test_rmw_implementation:/home/nyp-bot/ros2_humble/install/test_quality_of_service:/home/nyp-bot/ros2_humble/install/test_launch_testing:/home/nyp-bot/ros2_humble/install/test_interface_files:/home/nyp-bot/ros2_humble/install/test_cli_remapping:/home/nyp-bot/ros2_humble/install/test_cli:/home/nyp-bot/ros2_humble/install/qt_gui_app:/home/nyp-bot/ros2_humble/install/qt_gui:/home/nyp-bot/ros2_humble/install/tango_icons_vendor:/home/nyp-bot/ros2_humble/install/stereo_msgs:/home/nyp-bot/ros2_humble/install/std_srvs:/home/nyp-bot/ros2_humble/install/shape_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/map_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs:/home/nyp-bot/ros2_humble/install/nav_msgs:/home/nyp-bot/ros2_humble/install/diagnostic_msgs:/home/nyp-bot/ros2_humble/install/geometry_msgs:/home/nyp-bot/ros2_humble/install/actionlib_msgs:/home/nyp-bot/ros2_humble/install/std_msgs:/home/nyp-bot/ros2_humble/install/statistics_msgs:/home/nyp-bot/ros2_humble/install/sqlite3_vendor:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog:/home/nyp-bot/ros2_humble/install/spdlog_vendor:/home/nyp-bot/ros2_humble/install/shared_queues_vendor:/home/nyp-bot/ros2_humble/install/rviz_rendering_tests:/home/nyp-bot/ros2_humble/install/rviz_rendering:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor:/home/nyp-bot/ros2_humble/install/rviz_assimp_vendor:/home/nyp-bot/ros2_humble/install/rttest:/home/nyp-bot/ros2_humble/install/rmw_connextddsmicro:/home/nyp-bot/ros2_humble/install/rmw_connextdds:/home/nyp-bot/ros2_humble/install/rmw_connextdds_common:/home/nyp-bot/ros2_humble/install/rti_connext_dds_cmake_module:/home/nyp-bot/ros2_humble/install/rosgraph_msgs:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces:/home/nyp-bot/ros2_humble/install/rmw_dds_common:/home/nyp-bot/ros2_humble/install/composition_interfaces:/home/nyp-bot/ros2_humble/install/rcl_interfaces:/home/nyp-bot/ros2_humble/install/pendulum_msgs:/home/nyp-bot/ros2_humble/install/lifecycle_msgs:/home/nyp-bot/ros2_humble/install/builtin_interfaces:/home/nyp-bot/ros2_humble/install/rosidl_default_runtime:/home/nyp-bot/ros2_humble/install/rosidl_default_generators:/home/nyp-bot/ros2_humble/install/rosidl_generator_py:/home/nyp-bot/ros2_humble/install/rpyutils:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp:/home/nyp-bot/ros2_humble/install/rosidl_runtime_cpp:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser:/home/nyp-bot/ros2_humble/install/rmw:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c:/home/nyp-bot/ros2_humble/install/rosidl_generator_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_interface:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl:/home/nyp-bot/ros2_humble/install/rosidl_cmake:/home/nyp-bot/ros2_humble/install/rosidl_parser:/home/nyp-bot/ros2_humble/install/rosidl_adapter:/home/nyp-bot/ros2_humble/install/rosidl_cli:/home/nyp-bot/ros2_humble/install/ros_environment:/home/nyp-bot/ros2_humble/install/rmw_implementation_cmake:/home/nyp-bot/ros2_humble/install/resource_retriever:/home/nyp-bot/ros2_humble/install/class_loader:/home/nyp-bot/ros2_humble/install/rcpputils:/home/nyp-bot/ros2_humble/install/rcl_logging_noop:/home/nyp-bot/ros2_humble/install/rcl_logging_interface:/home/nyp-bot/ros2_humble/install/rcutils:/home/nyp-bot/ros2_humble/install/qt_gui_py_common:/home/nyp-bot/ros2_humble/install/qt_dotgraph:/home/nyp-bot/ros2_humble/install/python_qt_binding:/home/nyp-bot/ros2_humble/install/python_orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/launch_testing_ament_cmake:/home/nyp-bot/ros2_humble/install/python_cmake_module:/home/nyp-bot/ros2_humble/install/pybind11_vendor:/home/nyp-bot/ros2_humble/install/performance_test_fixture:/home/nyp-bot/ros2_humble/install/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_testing:/home/nyp-bot/ros2_humble/install/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_xml:/home/nyp-bot/ros2_humble/install/launch:/home/nyp-bot/ros2_humble/install/osrf_pycommon:/home/nyp-bot/ros2_humble/install/orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/mimick_vendor:/home/nyp-bot/ros2_humble/install/libyaml_vendor:/home/nyp-bot/ros2_humble/install/libcurl_vendor:/home/nyp-bot/ros2_humble/install/keyboard_handler:/home/nyp-bot/ros2_humble/install/ament_cmake_ros:/home/nyp-bot/ros2_humble/install/ament_cmake_auto:/home/nyp-bot/ros2_humble/install/ament_cmake_gmock:/home/nyp-bot/ros2_humble/install/ament_cmake_gtest:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark:/home/nyp-bot/ros2_humble/install/fastrtps_cmake_module:/home/nyp-bot/ros2_humble/install/eigen3_cmake_module:/home/nyp-bot/ros2_humble/install/domain_coordinator:/home/nyp-bot/ros2_humble/install/console_bridge_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_xmllint:/home/nyp-bot/ros2_humble/install/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_cmake_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_cmake_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_cmake_pep257:/home/nyp-bot/ros2_humble/install/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_cmake_pclint:/home/nyp-bot/ros2_humble/install/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_lint_auto:/home/nyp-bot/ros2_humble/install/ament_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_version:/home/nyp-bot/ros2_humble/install/ament_cmake_vendor_package:/home/nyp-bot/ros2_humble/install/ament_cmake_pytest:/home/nyp-bot/ros2_humble/install/ament_cmake_nose:/home/nyp-bot/ros2_humble/install/ament_cmake_mypy:/home/nyp-bot/ros2_humble/install/ament_cmake_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_flake8:/home/nyp-bot/ros2_humble/install/ament_cmake_cpplint:/home/nyp-bot/ros2_humble/install/ament_cmake_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cmake_copyright:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_format:/home/nyp-bot/ros2_humble/install/ament_cmake_test:/home/nyp-bot/ros2_humble/install/ament_cmake_target_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_python:/home/nyp-bot/ros2_humble/install/ament_cmake_export_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_gen_version_h:/home/nyp-bot/ros2_humble/install/ament_cmake_export_targets:/home/nyp-bot/ros2_humble/install/ament_cmake_export_link_flags:/home/nyp-bot/ros2_humble/install/ament_cmake_export_interfaces:/home/nyp-bot/ros2_humble/install/ament_cmake_export_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_export_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_export_definitions:/home/nyp-bot/ros2_humble/install/ament_cmake_core:/home/nyp-bot/ros2_humble/install/ament_package:/home/nyp-bot/ros2_humble/install/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_lint:/home/nyp-bot/ros2_humble/install/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_index_cpp:/home/nyp-bot/ros2_humble/install/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_format'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/interactive_markers/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_test/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tracetools_launch:/home/nyp-bot/ros2_humble/install/tracetools_launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/topic_monitor:/home/nyp-bot/ros2_humble/install/topic_monitor/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tf2_tools:/home/nyp-bot/ros2_humble/install/tf2_tools/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_kdl/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/examples_tf2_py:/home/nyp-bot/ros2_humble/install/examples_tf2_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tf2_ros_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/tf2_py/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/test_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/sros2:/home/nyp-bot/ros2_humble/install/sros2/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_topic/src:/home/nyp-bot/ros2_humble/install/rqt_topic/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_srv/src:/home/nyp-bot/ros2_humble/install/rqt_srv/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_shell/src:/home/nyp-bot/ros2_humble/install/rqt_shell/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_service_caller/src:/home/nyp-bot/ros2_humble/install/rqt_service_caller/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_reconfigure/src:/home/nyp-bot/ros2_humble/install/rqt_reconfigure/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_py_console/src:/home/nyp-bot/ros2_humble/install/rqt_py_console/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_publisher/src:/home/nyp-bot/ros2_humble/install/rqt_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_plot/src:/home/nyp-bot/ros2_humble/install/rqt_plot/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_action/src:/home/nyp-bot/ros2_humble/install/rqt_action/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_msg/src:/home/nyp-bot/ros2_humble/install/rqt_msg/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_console/src:/home/nyp-bot/ros2_humble/install/rqt_console/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rqt_py_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rqt_graph/src:/home/nyp-bot/ros2_humble/install/rqt_graph/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_gui_py/src:/home/nyp-bot/ros2_humble/install/rqt_gui_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_gui/src:/home/nyp-bot/ros2_humble/install/rqt_gui/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ros2trace:/home/nyp-bot/ros2_humble/install/ros2trace/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2topic:/home/nyp-bot/ros2_humble/install/ros2topic/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2test:/home/nyp-bot/ros2_humble/install/ros2test/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2component:/home/nyp-bot/ros2_humble/install/ros2component/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2param:/home/nyp-bot/ros2_humble/install/ros2param/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2lifecycle/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2service:/home/nyp-bot/ros2_humble/install/ros2service/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2run:/home/nyp-bot/ros2_humble/install/ros2run/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2plugin/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2launch:/home/nyp-bot/ros2_humble/install/ros2launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2pkg/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2node:/home/nyp-bot/ros2_humble/install/ros2node/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2multicast/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2interface:/home/nyp-bot/ros2_humble/install/ros2interface/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2doctor/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ros2action:/home/nyp-bot/ros2_humble/install/ros2action/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2cli:/home/nyp-bot/ros2_humble/install/ros2cli/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/message_filters/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/launch_testing_ros:/home/nyp-bot/ros2_humble/install/launch_testing_ros/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_ros:/home/nyp-bot/ros2_humble/install/launch_ros/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/laser_geometry/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/demo_nodes_py:/home/nyp-bot/ros2_humble/install/demo_nodes_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/action_tutorials_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rclpy/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/example_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/action_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ament_uncrustify:/home/nyp-bot/ros2_humble/install/ament_uncrustify/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_trace/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tracetools_read:/home/nyp-bot/ros2_humble/install/tracetools_read/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/qt_gui_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_gui/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/std_srvs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/shape_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/sensor_msgs_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/map_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/nav_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/std_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rmw_dds_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/pendulum_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rpyutils:/home/nyp-bot/ros2_humble/install/rpyutils/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_cmake/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_parser/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_adapter/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rosidl_cli:/home/nyp-bot/ros2_humble/install/rosidl_cli/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/resource_retriever/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rcutils/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_gui_py_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_dotgraph/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/python_qt_binding/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_pytest/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_testing:/home/nyp-bot/ros2_humble/install/launch_testing/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_yaml/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_xml:/home/nyp-bot/ros2_humble/install/launch_xml/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch:/home/nyp-bot/ros2_humble/install/launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/osrf_pycommon:/home/nyp-bot/ros2_humble/install/osrf_pycommon/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/domain_coordinator:/home/nyp-bot/ros2_humble/install/domain_coordinator/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_xmllint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pyflakes/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pycodestyle/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_pep257/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_pclint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ament_package:/home/nyp-bot/ros2_humble/install/ament_package/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_mypy/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_lint_cmake/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_flake8/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_copyright/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_lint:/home/nyp-bot/ros2_humble/install/ament_lint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_index_python/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cpplint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cppcheck/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_tidy/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_clang_format:/home/nyp-bot/ros2_humble/install/ament_clang_format/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nyp-bot/ydlidar_ros2_driver-master/install/ydlidar_ros2_driver:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd:/home/nyp-bot/ros2_humble/install/mcap_vendor:/home/nyp-bot/ros2_humble/install/zstd_vendor:/home/nyp-bot/ros2_humble/install/rviz_visual_testing_framework:/home/nyp-bot/ros2_humble/install/rviz_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins:/home/nyp-bot/ros2_humble/install/rosbag2_compression:/home/nyp-bot/ros2_humble/install/rosbag2_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_storage:/home/nyp-bot/ros2_humble/install/camera_info_manager:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers:/home/nyp-bot/ros2_humble/install/yaml_cpp_vendor:/home/nyp-bot/ros2_humble/install/interactive_markers:/home/nyp-bot/ros2_humble/install/common_interfaces:/home/nyp-bot/ros2_humble/install/visualization_msgs:/home/nyp-bot/ros2_humble/install/robot_state_publisher:/home/nyp-bot/ros2_humble/install/kdl_parser:/home/nyp-bot/ros2_humble/install/urdf:/home/nyp-bot/ros2_humble/install/urdfdom:/home/nyp-bot/ros2_humble/install/urdf_parser_plugin:/home/nyp-bot/ros2_humble/install/urdfdom_headers:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs:/home/nyp-bot/ros2_humble/install/tf2_kdl:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs:/home/nyp-bot/ros2_humble/install/tf2_eigen:/home/nyp-bot/ros2_humble/install/tf2_bullet:/home/nyp-bot/ros2_humble/install/tf2_ros:/home/nyp-bot/ros2_humble/install/tf2_py:/home/nyp-bot/ros2_humble/install/tf2_msgs:/home/nyp-bot/ros2_humble/install/test_msgs:/home/nyp-bot/ros2_humble/install/sros2_cmake:/home/nyp-bot/ros2_humble/install/rqt_py_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/nyp-bot/ros2_humble/install/ros_testing:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp:/home/nyp-bot/ros2_humble/install/image_transport:/home/nyp-bot/ros2_humble/install/message_filters:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp:/home/nyp-bot/ros2_humble/install/composition:/home/nyp-bot/ros2_humble/install/laser_geometry:/home/nyp-bot/ros2_humble/install/rclpy:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp:/home/nyp-bot/ros2_humble/install/rclcpp_action:/home/nyp-bot/ros2_humble/install/rcl_action:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclcpp_async_client:/home/nyp-bot/ros2_humble/install/example_interfaces:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces:/home/nyp-bot/ros2_humble/install/action_msgs:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs:/home/nyp-bot/ros2_humble/install/ament_lint_common:/home/nyp-bot/ros2_humble/install/ament_cmake_uncrustify:/home/nyp-bot/ros2_humble/install/uncrustify_vendor:/home/nyp-bot/ros2_humble/install/trajectory_msgs:/home/nyp-bot/ros2_humble/install/topic_statistics_demo:/home/nyp-bot/ros2_humble/install/tlsf_cpp:/home/nyp-bot/ros2_humble/install/test_tracetools:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_test_common:/home/nyp-bot/ros2_humble/install/ros2lifecycle_test_fixtures:/home/nyp-bot/ros2_humble/install/lifecycle:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition:/home/nyp-bot/ros2_humble/install/rclcpp_components:/home/nyp-bot/ros2_humble/install/intra_process_demo:/home/nyp-bot/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_timer:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclcpp_cbg_executor:/home/nyp-bot/ros2_humble/install/dummy_sensors:/home/nyp-bot/ros2_humble/install/dummy_map_server:/home/nyp-bot/ros2_humble/install/rclcpp:/home/nyp-bot/ros2_humble/install/rcl_lifecycle:/home/nyp-bot/ros2_humble/install/libstatistics_collector:/home/nyp-bot/ros2_humble/install/rcl:/home/nyp-bot/ros2_humble/install/rmw_implementation:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp:/home/nyp-bot/ros2_humble/install/tracetools:/home/nyp-bot/ros2_humble/install/tlsf:/home/nyp-bot/ros2_humble/install/tinyxml_vendor:/home/nyp-bot/ros2_humble/install/qt_gui_core:/home/nyp-bot/ros2_humble/install/qt_gui_cpp:/home/nyp-bot/ros2_humble/install/pluginlib:/home/nyp-bot/ros2_humble/install/tinyxml2_vendor:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl:/home/nyp-bot/ros2_humble/install/tf2:/home/nyp-bot/ros2_humble/install/test_rmw_implementation:/home/nyp-bot/ros2_humble/install/test_quality_of_service:/home/nyp-bot/ros2_humble/install/test_launch_testing:/home/nyp-bot/ros2_humble/install/test_interface_files:/home/nyp-bot/ros2_humble/install/test_cli_remapping:/home/nyp-bot/ros2_humble/install/test_cli:/home/nyp-bot/ros2_humble/install/qt_gui_app:/home/nyp-bot/ros2_humble/install/qt_gui:/home/nyp-bot/ros2_humble/install/tango_icons_vendor:/home/nyp-bot/ros2_humble/install/stereo_msgs:/home/nyp-bot/ros2_humble/install/std_srvs:/home/nyp-bot/ros2_humble/install/shape_msgs:/home/nyp-bot/ros2_humble/install/map_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs:/home/nyp-bot/ros2_humble/install/nav_msgs:/home/nyp-bot/ros2_humble/install/diagnostic_msgs:/home/nyp-bot/ros2_humble/install/geometry_msgs:/home/nyp-bot/ros2_humble/install/actionlib_msgs:/home/nyp-bot/ros2_humble/install/std_msgs:/home/nyp-bot/ros2_humble/install/statistics_msgs:/home/nyp-bot/ros2_humble/install/sqlite3_vendor:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog:/home/nyp-bot/ros2_humble/install/spdlog_vendor:/home/nyp-bot/ros2_humble/install/shared_queues_vendor:/home/nyp-bot/ros2_humble/install/rviz_rendering_tests:/home/nyp-bot/ros2_humble/install/rviz_rendering:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor:/home/nyp-bot/ros2_humble/install/rviz_assimp_vendor:/home/nyp-bot/ros2_humble/install/rttest:/home/nyp-bot/ros2_humble/install/rmw_connextddsmicro:/home/nyp-bot/ros2_humble/install/rmw_connextdds:/home/nyp-bot/ros2_humble/install/rmw_connextdds_common:/home/nyp-bot/ros2_humble/install/rti_connext_dds_cmake_module:/home/nyp-bot/ros2_humble/install/rosgraph_msgs:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces:/home/nyp-bot/ros2_humble/install/rmw_dds_common:/home/nyp-bot/ros2_humble/install/composition_interfaces:/home/nyp-bot/ros2_humble/install/rcl_interfaces:/home/nyp-bot/ros2_humble/install/pendulum_msgs:/home/nyp-bot/ros2_humble/install/lifecycle_msgs:/home/nyp-bot/ros2_humble/install/builtin_interfaces:/home/nyp-bot/ros2_humble/install/rosidl_default_runtime:/home/nyp-bot/ros2_humble/install/rosidl_default_generators:/home/nyp-bot/ros2_humble/install/rosidl_generator_py:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp:/home/nyp-bot/ros2_humble/install/rosidl_runtime_cpp:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser:/home/nyp-bot/ros2_humble/install/rmw:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c:/home/nyp-bot/ros2_humble/install/rosidl_generator_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_interface:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl:/home/nyp-bot/ros2_humble/install/rosidl_cmake:/home/nyp-bot/ros2_humble/install/rosidl_parser:/home/nyp-bot/ros2_humble/install/rosidl_adapter:/home/nyp-bot/ros2_humble/install/ros_environment:/home/nyp-bot/ros2_humble/install/rmw_implementation_cmake:/home/nyp-bot/ros2_humble/install/resource_retriever:/home/nyp-bot/ros2_humble/install/class_loader:/home/nyp-bot/ros2_humble/install/rcpputils:/home/nyp-bot/ros2_humble/install/rcl_logging_noop:/home/nyp-bot/ros2_humble/install/rcl_logging_interface:/home/nyp-bot/ros2_humble/install/rcutils:/home/nyp-bot/ros2_humble/install/qt_gui_py_common:/home/nyp-bot/ros2_humble/install/qt_dotgraph:/home/nyp-bot/ros2_humble/install/python_qt_binding:/home/nyp-bot/ros2_humble/install/python_orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/launch_testing_ament_cmake:/home/nyp-bot/ros2_humble/install/python_cmake_module:/home/nyp-bot/ros2_humble/install/pybind11_vendor:/home/nyp-bot/ros2_humble/install/performance_test_fixture:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp:/home/nyp-bot/ros2_humble/install/orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/mimick_vendor:/home/nyp-bot/ros2_humble/install/libyaml_vendor:/home/nyp-bot/ros2_humble/install/libcurl_vendor:/home/nyp-bot/ros2_humble/install/keyboard_handler:/home/nyp-bot/ros2_humble/install/iceoryx_introspection:/home/nyp-bot/ros2_humble/install/cyclonedds:/home/nyp-bot/ros2_humble/install/iceoryx_posh:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c:/home/nyp-bot/ros2_humble/install/ament_cmake_ros:/home/nyp-bot/ros2_humble/install/ament_cmake_auto:/home/nyp-bot/ros2_humble/install/ament_cmake_gmock:/home/nyp-bot/ros2_humble/install/gmock_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_gtest:/home/nyp-bot/ros2_humble/install/gtest_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor:/home/nyp-bot/ros2_humble/install/fastrtps:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor:/home/nyp-bot/ros2_humble/install/fastrtps_cmake_module:/home/nyp-bot/ros2_humble/install/fastcdr:/home/nyp-bot/ros2_humble/install/eigen3_cmake_module:/home/nyp-bot/ros2_humble/install/console_bridge_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_xmllint:/home/nyp-bot/ros2_humble/install/ament_cmake_pyflakes:/home/nyp-bot/ros2_humble/install/ament_cmake_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_cmake_pep257:/home/nyp-bot/ros2_humble/install/ament_cmake_pclint:/home/nyp-bot/ros2_humble/install/ament_lint_auto:/home/nyp-bot/ros2_humble/install/ament_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_version:/home/nyp-bot/ros2_humble/install/ament_cmake_vendor_package:/home/nyp-bot/ros2_humble/install/ament_cmake_pytest:/home/nyp-bot/ros2_humble/install/ament_cmake_nose:/home/nyp-bot/ros2_humble/install/ament_cmake_mypy:/home/nyp-bot/ros2_humble/install/ament_cmake_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_flake8:/home/nyp-bot/ros2_humble/install/ament_cmake_cpplint:/home/nyp-bot/ros2_humble/install/ament_cmake_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cmake_copyright:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_format:/home/nyp-bot/ros2_humble/install/ament_cmake_test:/home/nyp-bot/ros2_humble/install/ament_cmake_target_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_python:/home/nyp-bot/ros2_humble/install/ament_cmake_export_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_gen_version_h:/home/nyp-bot/ros2_humble/install/ament_cmake_export_targets:/home/nyp-bot/ros2_humble/install/ament_cmake_export_link_flags:/home/nyp-bot/ros2_humble/install/ament_cmake_export_interfaces:/home/nyp-bot/ros2_humble/install/ament_cmake_export_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_export_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_export_definitions:/home/nyp-bot/ros2_humble/install/ament_cmake_core:/home/nyp-bot/ros2_humble/install/ament_index_cpp:/opt/ros/humble:/home/nyp-bot/ros2_humble/install/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_launch:/home/nyp-bot/ros2_humble/install/topic_monitor:/home/nyp-bot/ros2_humble/install/tf2_tools:/home/nyp-bot/ros2_humble/install/examples_tf2_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py:/home/nyp-bot/ros2_humble/install/sros2:/home/nyp-bot/ros2_humble/install/rqt_topic:/home/nyp-bot/ros2_humble/install/rqt_srv:/home/nyp-bot/ros2_humble/install/rqt_shell:/home/nyp-bot/ros2_humble/install/rqt_service_caller:/home/nyp-bot/ros2_humble/install/rqt_reconfigure:/home/nyp-bot/ros2_humble/install/rqt_py_console:/home/nyp-bot/ros2_humble/install/rqt_publisher:/home/nyp-bot/ros2_humble/install/rqt_plot:/home/nyp-bot/ros2_humble/install/rqt_action:/home/nyp-bot/ros2_humble/install/rqt_msg:/home/nyp-bot/ros2_humble/install/rqt_console:/home/nyp-bot/ros2_humble/install/rqt_graph:/home/nyp-bot/ros2_humble/install/rqt_gui_py:/home/nyp-bot/ros2_humble/install/rqt_gui:/home/nyp-bot/ros2_humble/install/ros2trace:/home/nyp-bot/ros2_humble/install/ros2topic:/home/nyp-bot/ros2_humble/install/ros2test:/home/nyp-bot/ros2_humble/install/ros2component:/home/nyp-bot/ros2_humble/install/ros2param:/home/nyp-bot/ros2_humble/install/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2service:/home/nyp-bot/ros2_humble/install/ros2run:/home/nyp-bot/ros2_humble/install/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2launch:/home/nyp-bot/ros2_humble/install/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2node:/home/nyp-bot/ros2_humble/install/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2interface:/home/nyp-bot/ros2_humble/install/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2action:/home/nyp-bot/ros2_humble/install/ros2cli:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/launch_testing_ros:/home/nyp-bot/ros2_humble/install/launch_ros:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/demo_nodes_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py:/home/nyp-bot/ros2_humble/install/ament_uncrustify:/home/nyp-bot/ros2_humble/install/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_read:/home/nyp-bot/ros2_humble/install/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/rpyutils:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_cli:/home/nyp-bot/ros2_humble/install/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_testing:/home/nyp-bot/ros2_humble/install/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_xml:/home/nyp-bot/ros2_humble/install/launch:/home/nyp-bot/ros2_humble/install/osrf_pycommon:/home/nyp-bot/ros2_humble/install/domain_coordinator:/home/nyp-bot/ros2_humble/install/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_package:/home/nyp-bot/ros2_humble/install/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_lint:/home/nyp-bot/ros2_humble/install/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_format')]), 'shell': False}
+[0.400766] (-) TimerEvent: {}
+[0.501616] (-) TimerEvent: {}
+[0.602357] (-) TimerEvent: {}
+[0.703118] (-) TimerEvent: {}
+[0.803879] (-) TimerEvent: {}
+[0.904727] (-) TimerEvent: {}
+[1.006107] (-) TimerEvent: {}
+[1.107752] (-) TimerEvent: {}
+[1.128721] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/home/nyp-bot/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)\n'}
+[1.207927] (-) TimerEvent: {}
+[1.308627] (-) TimerEvent: {}
+[1.409305] (-) TimerEvent: {}
+[1.509985] (-) TimerEvent: {}
+[1.610690] (-) TimerEvent: {}
+[1.711538] (-) TimerEvent: {}
+[1.812244] (-) TimerEvent: {}
+[1.912941] (-) TimerEvent: {}
+[2.013608] (-) TimerEvent: {}
+[2.114263] (-) TimerEvent: {}
+[2.215119] (-) TimerEvent: {}
+[2.315891] (-) TimerEvent: {}
+[2.416627] (-) TimerEvent: {}
+[2.517345] (-) TimerEvent: {}
+[2.618025] (-) TimerEvent: {}
+[2.718830] (-) TimerEvent: {}
+[2.819794] (-) TimerEvent: {}
+[2.920541] (-) TimerEvent: {}
+[3.021227] (-) TimerEvent: {}
+[3.121897] (-) TimerEvent: {}
+[3.222578] (-) TimerEvent: {}
+[3.323313] (-) TimerEvent: {}
+[3.423974] (-) TimerEvent: {}
+[3.524731] (-) TimerEvent: {}
+[3.625402] (-) TimerEvent: {}
+[3.726061] (-) TimerEvent: {}
+[3.826718] (-) TimerEvent: {}
+[3.927378] (-) TimerEvent: {}
+[4.028019] (-) TimerEvent: {}
+[4.028742] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.119573] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/home/nyp-bot/ros2_humble/install/rclcpp/share/rclcpp/cmake)\n'}
+[4.128240] (-) TimerEvent: {}
+[4.229291] (-) TimerEvent: {}
+[4.330089] (-) TimerEvent: {}
+[4.431011] (-) TimerEvent: {}
+[4.531905] (-) TimerEvent: {}
+[4.628836] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/home/nyp-bot/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)\n'}
+[4.632132] (-) TimerEvent: {}
+[4.647773] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/home/nyp-bot/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)\n'}
+[4.692172] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)\n'}
+[4.732354] (-) TimerEvent: {}
+[4.833165] (-) TimerEvent: {}
+[4.848088] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.933352] (-) TimerEvent: {}
+[5.023650] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.033521] (-) TimerEvent: {}
+[5.134210] (-) TimerEvent: {}
+[5.235137] (-) TimerEvent: {}
+[5.336608] (-) TimerEvent: {}
+[5.358350] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/home/nyp-bot/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)\n'}
+[5.436778] (-) TimerEvent: {}
+[5.467296] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.536984] (-) TimerEvent: {}
+[5.637741] (-) TimerEvent: {}
+[5.738452] (-) TimerEvent: {}
+[5.839265] (-) TimerEvent: {}
+[5.940166] (-) TimerEvent: {}
+[6.040936] (-) TimerEvent: {}
+[6.141626] (-) TimerEvent: {}
+[6.242336] (-) TimerEvent: {}
+[6.343055] (-) TimerEvent: {}
+[6.443765] (-) TimerEvent: {}
+[6.544479] (-) TimerEvent: {}
+[6.645168] (-) TimerEvent: {}
+[6.745851] (-) TimerEvent: {}
+[6.846615] (-) TimerEvent: {}
+[6.947509] (-) TimerEvent: {}
+[7.048256] (-) TimerEvent: {}
+[7.148983] (-) TimerEvent: {}
+[7.249660] (-) TimerEvent: {}
+[7.350642] (-) TimerEvent: {}
+[7.451353] (-) TimerEvent: {}
+[7.552142] (-) TimerEvent: {}
+[7.652919] (-) TimerEvent: {}
+[7.753608] (-) TimerEvent: {}
+[7.854291] (-) TimerEvent: {}
+[7.954963] (-) TimerEvent: {}
+[8.055670] (-) TimerEvent: {}
+[8.156434] (-) TimerEvent: {}
+[8.257266] (-) TimerEvent: {}
+[8.357979] (-) TimerEvent: {}
+[8.369509] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.458275] (-) TimerEvent: {}
+[8.559045] (-) TimerEvent: {}
+[8.659934] (-) TimerEvent: {}
+[8.671235] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/home/nyp-bot/ros2_humble/install/sensor_msgs/share/sensor_msgs/cmake)\n'}
+[8.760162] (-) TimerEvent: {}
+[8.842105] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/home/nyp-bot/ros2_humble/install/visualization_msgs/share/visualization_msgs/cmake)\n'}
+[8.860343] (-) TimerEvent: {}
+[8.953678] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/home/nyp-bot/ros2_humble/install/std_srvs/share/std_srvs/cmake)\n'}
+[8.960563] (-) TimerEvent: {}
+[9.061271] (-) TimerEvent: {}
+[9.162008] (-) TimerEvent: {}
+[9.262702] (-) TimerEvent: {}
+[9.363489] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/home/nyp-bot/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)\n'}
+[9.364140] (-) TimerEvent: {}
+[9.464726] (-) TimerEvent: {}
+[9.565397] (-) TimerEvent: {}
+[9.666118] (-) TimerEvent: {}
+[9.766788] (-) TimerEvent: {}
+[9.867480] (-) TimerEvent: {}
+[9.968206] (-) TimerEvent: {}
+[10.069081] (-) TimerEvent: {}
+[10.170082] (-) TimerEvent: {}
+[10.270738] (-) TimerEvent: {}
+[10.371443] (-) TimerEvent: {}
+[10.472113] (-) TimerEvent: {}
+[10.572881] (-) TimerEvent: {}
+[10.641695] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.673150] (-) TimerEvent: {}
+[10.692694] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.693926] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src\n'}
+[10.694511] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.743554] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.744192] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.751415] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.764902] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.772718] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.773271] (-) TimerEvent: {}
+[10.821924] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.824865] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.832006] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.847148] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.873482] (-) TimerEvent: {}
+[10.974176] (-) TimerEvent: {}
+[11.074903] (-) TimerEvent: {}
+[11.157372] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[11.175115] (-) TimerEvent: {}
+[11.187649] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver\n'}
+[11.275323] (-) TimerEvent: {}
+[11.376094] (-) TimerEvent: {}
+[11.476841] (-) TimerEvent: {}
+[11.577601] (-) TimerEvent: {}
+[11.678446] (-) TimerEvent: {}
+[11.709360] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[11.725984] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[11.778651] (-) TimerEvent: {}
+[11.879393] (-) TimerEvent: {}
+[11.980136] (-) TimerEvent: {}
+[12.047190] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[12.048123] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[12.080386] (-) TimerEvent: {}
+[12.181352] (-) TimerEvent: {}
+[12.282204] (-) TimerEvent: {}
+[12.383721] (-) TimerEvent: {}
+[12.485039] (-) TimerEvent: {}
+[12.585962] (-) TimerEvent: {}
+[12.687034] (-) TimerEvent: {}
+[12.788200] (-) TimerEvent: {}
+[12.889126] (-) TimerEvent: {}
+[12.989980] (-) TimerEvent: {}
+[13.090703] (-) TimerEvent: {}
+[13.191493] (-) TimerEvent: {}
+[13.292251] (-) TimerEvent: {}
+[13.393130] (-) TimerEvent: {}
+[13.494127] (-) TimerEvent: {}
+[13.594803] (-) TimerEvent: {}
+[13.695761] (-) TimerEvent: {}
+[13.796546] (-) TimerEvent: {}
+[13.897279] (-) TimerEvent: {}
+[13.998230] (-) TimerEvent: {}
+[14.098961] (-) TimerEvent: {}
+[14.199701] (-) TimerEvent: {}
+[14.300686] (-) TimerEvent: {}
+[14.402511] (-) TimerEvent: {}
+[14.503579] (-) TimerEvent: {}
+[14.604346] (-) TimerEvent: {}
+[14.705155] (-) TimerEvent: {}
+[14.805913] (-) TimerEvent: {}
+[14.906776] (-) TimerEvent: {}
+[15.007661] (-) TimerEvent: {}
+[15.108384] (-) TimerEvent: {}
+[15.209263] (-) TimerEvent: {}
+[15.309982] (-) TimerEvent: {}
+[15.410788] (-) TimerEvent: {}
+[15.511489] (-) TimerEvent: {}
+[15.612324] (-) TimerEvent: {}
+[15.713128] (-) TimerEvent: {}
+[15.813853] (-) TimerEvent: {}
+[15.914829] (-) TimerEvent: {}
+[16.015817] (-) TimerEvent: {}
+[16.116730] (-) TimerEvent: {}
+[16.217625] (-) TimerEvent: {}
+[16.318726] (-) TimerEvent: {}
+[16.419782] (-) TimerEvent: {}
+[16.520849] (-) TimerEvent: {}
+[16.622058] (-) TimerEvent: {}
+[16.723213] (-) TimerEvent: {}
+[16.824387] (-) TimerEvent: {}
+[16.925416] (-) TimerEvent: {}
+[17.026611] (-) TimerEvent: {}
+[17.128122] (-) TimerEvent: {}
+[17.229298] (-) TimerEvent: {}
+[17.330905] (-) TimerEvent: {}
+[17.432289] (-) TimerEvent: {}
+[17.533681] (-) TimerEvent: {}
+[17.634697] (-) TimerEvent: {}
+[17.735653] (-) TimerEvent: {}
+[17.836607] (-) TimerEvent: {}
+[17.937887] (-) TimerEvent: {}
+[18.039984] (-) TimerEvent: {}
+[18.141152] (-) TimerEvent: {}
+[18.242262] (-) TimerEvent: {}
+[18.343350] (-) TimerEvent: {}
+[18.444444] (-) TimerEvent: {}
+[18.545660] (-) TimerEvent: {}
+[18.646805] (-) TimerEvent: {}
+[18.747807] (-) TimerEvent: {}
+[18.848927] (-) TimerEvent: {}
+[18.949872] (-) TimerEvent: {}
+[19.050904] (-) TimerEvent: {}
+[19.151965] (-) TimerEvent: {}
+[19.253008] (-) TimerEvent: {}
+[19.354178] (-) TimerEvent: {}
+[19.455578] (-) TimerEvent: {}
+[19.556975] (-) TimerEvent: {}
+[19.657941] (-) TimerEvent: {}
+[19.758865] (-) TimerEvent: {}
+[19.859919] (-) TimerEvent: {}
+[19.961396] (-) TimerEvent: {}
+[20.063269] (-) TimerEvent: {}
+[20.164645] (-) TimerEvent: {}
+[20.265610] (-) TimerEvent: {}
+[20.366604] (-) TimerEvent: {}
+[20.467987] (-) TimerEvent: {}
+[20.569068] (-) TimerEvent: {}
+[20.670149] (-) TimerEvent: {}
+[20.771206] (-) TimerEvent: {}
+[20.872330] (-) TimerEvent: {}
+[20.973443] (-) TimerEvent: {}
+[21.074801] (-) TimerEvent: {}
+[21.175747] (-) TimerEvent: {}
+[21.276665] (-) TimerEvent: {}
+[21.377633] (-) TimerEvent: {}
+[21.478600] (-) TimerEvent: {}
+[21.579512] (-) TimerEvent: {}
+[21.680451] (-) TimerEvent: {}
+[21.781455] (-) TimerEvent: {}
+[21.882440] (-) TimerEvent: {}
+[21.983389] (-) TimerEvent: {}
+[22.084409] (-) TimerEvent: {}
+[22.185558] (-) TimerEvent: {}
+[22.286452] (-) TimerEvent: {}
+[22.387411] (-) TimerEvent: {}
+[22.488606] (-) TimerEvent: {}
+[22.590331] (-) TimerEvent: {}
+[22.691346] (-) TimerEvent: {}
+[22.792600] (-) TimerEvent: {}
+[22.894053] (-) TimerEvent: {}
+[22.995031] (-) TimerEvent: {}
+[23.096032] (-) TimerEvent: {}
+[23.198976] (-) TimerEvent: {}
+[23.299949] (-) TimerEvent: {}
+[23.404788] (-) TimerEvent: {}
+[23.506479] (-) TimerEvent: {}
+[23.607467] (-) TimerEvent: {}
+[23.708460] (-) TimerEvent: {}
+[23.809411] (-) TimerEvent: {}
+[23.910384] (-) TimerEvent: {}
+[24.011296] (-) TimerEvent: {}
+[24.112225] (-) TimerEvent: {}
+[24.213298] (-) TimerEvent: {}
+[24.314271] (-) TimerEvent: {}
+[24.415213] (-) TimerEvent: {}
+[24.516190] (-) TimerEvent: {}
+[24.617206] (-) TimerEvent: {}
+[24.718397] (-) TimerEvent: {}
+[24.819342] (-) TimerEvent: {}
+[24.920414] (-) TimerEvent: {}
+[25.021428] (-) TimerEvent: {}
+[25.122400] (-) TimerEvent: {}
+[25.223428] (-) TimerEvent: {}
+[25.324423] (-) TimerEvent: {}
+[25.425681] (-) TimerEvent: {}
+[25.527159] (-) TimerEvent: {}
+[25.628179] (-) TimerEvent: {}
+[25.729417] (-) TimerEvent: {}
+[25.830565] (-) TimerEvent: {}
+[25.931521] (-) TimerEvent: {}
+[26.032461] (-) TimerEvent: {}
+[26.133497] (-) TimerEvent: {}
+[26.234669] (-) TimerEvent: {}
+[26.335740] (-) TimerEvent: {}
+[26.436904] (-) TimerEvent: {}
+[26.538869] (-) TimerEvent: {}
+[26.639966] (-) TimerEvent: {}
+[26.741027] (-) TimerEvent: {}
+[26.841994] (-) TimerEvent: {}
+[26.943081] (-) TimerEvent: {}
+[27.044194] (-) TimerEvent: {}
+[27.145211] (-) TimerEvent: {}
+[27.246142] (-) TimerEvent: {}
+[27.347091] (-) TimerEvent: {}
+[27.448006] (-) TimerEvent: {}
+[27.548949] (-) TimerEvent: {}
+[27.649899] (-) TimerEvent: {}
+[27.750896] (-) TimerEvent: {}
+[27.851904] (-) TimerEvent: {}
+[27.952911] (-) TimerEvent: {}
+[28.053872] (-) TimerEvent: {}
+[28.154871] (-) TimerEvent: {}
+[28.255960] (-) TimerEvent: {}
+[28.276016] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[28.284179] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.285305] (ydlidar_ros2_driver) StderrLine: {'line': b'  191 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[28.286193] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.287099] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.288000] (ydlidar_ros2_driver) StderrLine: {'line': b'  192 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[28.289035] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.289838] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.290751] (ydlidar_ros2_driver) StderrLine: {'line': b'  193 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[28.291421] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[28.356222] (-) TimerEvent: {}
+[28.362170] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[28.366538] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.367245] (ydlidar_ros2_driver) StderrLine: {'line': b'  201 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[28.368180] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.369071] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.369709] (ydlidar_ros2_driver) StderrLine: {'line': b'  202 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[28.370284] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.370908] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.371501] (ydlidar_ros2_driver) StderrLine: {'line': b'  203 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[28.372075] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[28.456596] (-) TimerEvent: {}
+[28.557649] (-) TimerEvent: {}
+[28.658577] (-) TimerEvent: {}
+[28.759598] (-) TimerEvent: {}
+[28.860570] (-) TimerEvent: {}
+[28.961417] (-) TimerEvent: {}
+[29.062382] (-) TimerEvent: {}
+[29.163448] (-) TimerEvent: {}
+[29.264377] (-) TimerEvent: {}
+[29.365327] (-) TimerEvent: {}
+[29.467512] (-) TimerEvent: {}
+[29.568551] (-) TimerEvent: {}
+[29.669451] (-) TimerEvent: {}
+[29.770377] (-) TimerEvent: {}
+[29.876718] (-) TimerEvent: {}
+[29.977633] (-) TimerEvent: {}
+[30.078711] (-) TimerEvent: {}
+[30.179941] (-) TimerEvent: {}
+[30.281360] (-) TimerEvent: {}
+[30.382366] (-) TimerEvent: {}
+[30.483219] (-) TimerEvent: {}
+[30.584134] (-) TimerEvent: {}
+[30.685219] (-) TimerEvent: {}
+[30.787066] (-) TimerEvent: {}
+[30.887970] (-) TimerEvent: {}
+[30.988911] (-) TimerEvent: {}
+[31.089817] (-) TimerEvent: {}
+[31.195109] (-) TimerEvent: {}
+[31.296048] (-) TimerEvent: {}
+[31.397047] (-) TimerEvent: {}
+[31.499799] (-) TimerEvent: {}
+[31.600721] (-) TimerEvent: {}
+[31.701603] (-) TimerEvent: {}
+[31.802640] (-) TimerEvent: {}
+[31.908749] (-) TimerEvent: {}
+[32.009851] (-) TimerEvent: {}
+[32.110883] (-) TimerEvent: {}
+[32.211847] (-) TimerEvent: {}
+[32.319544] (-) TimerEvent: {}
+[32.420652] (-) TimerEvent: {}
+[32.521604] (-) TimerEvent: {}
+[32.622560] (-) TimerEvent: {}
+[32.723612] (-) TimerEvent: {}
+[32.824717] (-) TimerEvent: {}
+[32.925730] (-) TimerEvent: {}
+[33.027966] (-) TimerEvent: {}
+[33.129053] (-) TimerEvent: {}
+[33.230047] (-) TimerEvent: {}
+[33.331042] (-) TimerEvent: {}
+[33.432008] (-) TimerEvent: {}
+[33.532962] (-) TimerEvent: {}
+[33.636739] (-) TimerEvent: {}
+[33.737927] (-) TimerEvent: {}
+[33.839444] (-) TimerEvent: {}
+[33.940396] (-) TimerEvent: {}
+[34.041369] (-) TimerEvent: {}
+[34.142393] (-) TimerEvent: {}
+[34.243361] (-) TimerEvent: {}
+[34.344394] (-) TimerEvent: {}
+[34.445501] (-) TimerEvent: {}
+[34.546645] (-) TimerEvent: {}
+[34.647711] (-) TimerEvent: {}
+[34.749335] (-) TimerEvent: {}
+[34.850836] (-) TimerEvent: {}
+[34.951827] (-) TimerEvent: {}
+[35.052818] (-) TimerEvent: {}
+[35.153730] (-) TimerEvent: {}
+[35.254815] (-) TimerEvent: {}
+[35.355841] (-) TimerEvent: {}
+[35.456989] (-) TimerEvent: {}
+[35.558088] (-) TimerEvent: {}
+[35.659092] (-) TimerEvent: {}
+[35.760026] (-) TimerEvent: {}
+[35.860986] (-) TimerEvent: {}
+[35.961922] (-) TimerEvent: {}
+[36.062958] (-) TimerEvent: {}
+[36.163955] (-) TimerEvent: {}
+[36.264965] (-) TimerEvent: {}
+[36.365925] (-) TimerEvent: {}
+[36.467316] (-) TimerEvent: {}
+[36.568324] (-) TimerEvent: {}
+[36.669439] (-) TimerEvent: {}
+[36.770681] (-) TimerEvent: {}
+[36.872513] (-) TimerEvent: {}
+[36.973421] (-) TimerEvent: {}
+[37.074380] (-) TimerEvent: {}
+[37.175394] (-) TimerEvent: {}
+[37.276531] (-) TimerEvent: {}
+[37.377501] (-) TimerEvent: {}
+[37.478450] (-) TimerEvent: {}
+[37.579289] (-) TimerEvent: {}
+[37.680284] (-) TimerEvent: {}
+[37.781305] (-) TimerEvent: {}
+[37.882172] (-) TimerEvent: {}
+[37.983145] (-) TimerEvent: {}
+[38.084196] (-) TimerEvent: {}
+[38.185217] (-) TimerEvent: {}
+[38.286183] (-) TimerEvent: {}
+[38.387259] (-) TimerEvent: {}
+[38.488238] (-) TimerEvent: {}
+[38.589221] (-) TimerEvent: {}
+[38.690145] (-) TimerEvent: {}
+[38.791116] (-) TimerEvent: {}
+[38.892125] (-) TimerEvent: {}
+[38.993414] (-) TimerEvent: {}
+[39.094324] (-) TimerEvent: {}
+[39.195112] (-) TimerEvent: {}
+[39.295969] (-) TimerEvent: {}
+[39.396821] (-) TimerEvent: {}
+[39.497713] (-) TimerEvent: {}
+[39.598722] (-) TimerEvent: {}
+[39.699587] (-) TimerEvent: {}
+[39.800888] (-) TimerEvent: {}
+[39.902739] (-) TimerEvent: {}
+[40.003816] (-) TimerEvent: {}
+[40.105480] (-) TimerEvent: {}
+[40.206510] (-) TimerEvent: {}
+[40.307541] (-) TimerEvent: {}
+[40.408558] (-) TimerEvent: {}
+[40.509688] (-) TimerEvent: {}
+[40.611616] (-) TimerEvent: {}
+[40.712626] (-) TimerEvent: {}
+[40.813659] (-) TimerEvent: {}
+[40.914735] (-) TimerEvent: {}
+[41.015945] (-) TimerEvent: {}
+[41.116880] (-) TimerEvent: {}
+[41.217962] (-) TimerEvent: {}
+[41.319174] (-) TimerEvent: {}
+[41.420336] (-) TimerEvent: {}
+[41.521668] (-) TimerEvent: {}
+[41.622969] (-) TimerEvent: {}
+[41.723920] (-) TimerEvent: {}
+[41.824971] (-) TimerEvent: {}
+[41.925949] (-) TimerEvent: {}
+[42.026912] (-) TimerEvent: {}
+[42.127916] (-) TimerEvent: {}
+[42.229045] (-) TimerEvent: {}
+[42.330037] (-) TimerEvent: {}
+[42.431011] (-) TimerEvent: {}
+[42.531931] (-) TimerEvent: {}
+[42.632886] (-) TimerEvent: {}
+[42.733863] (-) TimerEvent: {}
+[42.835176] (-) TimerEvent: {}
+[42.937161] (-) TimerEvent: {}
+[43.038727] (-) TimerEvent: {}
+[43.139749] (-) TimerEvent: {}
+[43.240717] (-) TimerEvent: {}
+[43.341785] (-) TimerEvent: {}
+[43.442712] (-) TimerEvent: {}
+[43.543981] (-) TimerEvent: {}
+[43.645291] (-) TimerEvent: {}
+[43.746315] (-) TimerEvent: {}
+[43.847502] (-) TimerEvent: {}
+[43.948602] (-) TimerEvent: {}
+[44.049518] (-) TimerEvent: {}
+[44.150519] (-) TimerEvent: {}
+[44.251543] (-) TimerEvent: {}
+[44.352620] (-) TimerEvent: {}
+[44.453546] (-) TimerEvent: {}
+[44.554405] (-) TimerEvent: {}
+[44.655231] (-) TimerEvent: {}
+[44.756697] (-) TimerEvent: {}
+[44.857584] (-) TimerEvent: {}
+[44.958357] (-) TimerEvent: {}
+[45.059249] (-) TimerEvent: {}
+[45.160038] (-) TimerEvent: {}
+[45.260829] (-) TimerEvent: {}
+[45.361594] (-) TimerEvent: {}
+[45.462390] (-) TimerEvent: {}
+[45.563411] (-) TimerEvent: {}
+[45.664324] (-) TimerEvent: {}
+[45.765295] (-) TimerEvent: {}
+[45.866199] (-) TimerEvent: {}
+[45.967077] (-) TimerEvent: {}
+[46.068032] (-) TimerEvent: {}
+[46.168883] (-) TimerEvent: {}
+[46.269742] (-) TimerEvent: {}
+[46.370688] (-) TimerEvent: {}
+[46.471592] (-) TimerEvent: {}
+[46.572577] (-) TimerEvent: {}
+[46.673684] (-) TimerEvent: {}
+[46.774966] (-) TimerEvent: {}
+[46.875981] (-) TimerEvent: {}
+[46.977137] (-) TimerEvent: {}
+[47.078119] (-) TimerEvent: {}
+[47.179408] (-) TimerEvent: {}
+[47.280231] (-) TimerEvent: {}
+[47.381139] (-) TimerEvent: {}
+[47.408258] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[47.481361] (-) TimerEvent: {}
+[47.582210] (-) TimerEvent: {}
+[47.683098] (-) TimerEvent: {}
+[47.783971] (-) TimerEvent: {}
+[47.884875] (-) TimerEvent: {}
+[47.985783] (-) TimerEvent: {}
+[48.086943] (-) TimerEvent: {}
+[48.187989] (-) TimerEvent: {}
+[48.288927] (-) TimerEvent: {}
+[48.389855] (-) TimerEvent: {}
+[48.490994] (-) TimerEvent: {}
+[48.592567] (-) TimerEvent: {}
+[48.693989] (-) TimerEvent: {}
+[48.794930] (-) TimerEvent: {}
+[48.895961] (-) TimerEvent: {}
+[48.996820] (-) TimerEvent: {}
+[49.097920] (-) TimerEvent: {}
+[49.199656] (-) TimerEvent: {}
+[49.301250] (-) TimerEvent: {}
+[49.402726] (-) TimerEvent: {}
+[49.504112] (-) TimerEvent: {}
+[49.605867] (-) TimerEvent: {}
+[49.706886] (-) TimerEvent: {}
+[49.808151] (-) TimerEvent: {}
+[49.909348] (-) TimerEvent: {}
+[50.010629] (-) TimerEvent: {}
+[50.111899] (-) TimerEvent: {}
+[50.213562] (-) TimerEvent: {}
+[50.314848] (-) TimerEvent: {}
+[50.416561] (-) TimerEvent: {}
+[50.517771] (-) TimerEvent: {}
+[50.619307] (-) TimerEvent: {}
+[50.721277] (-) TimerEvent: {}
+[50.822806] (-) TimerEvent: {}
+[50.923941] (-) TimerEvent: {}
+[51.025016] (-) TimerEvent: {}
+[51.126067] (-) TimerEvent: {}
+[51.227492] (-) TimerEvent: {}
+[51.329001] (-) TimerEvent: {}
+[51.430305] (-) TimerEvent: {}
+[51.531928] (-) TimerEvent: {}
+[51.633542] (-) TimerEvent: {}
+[51.734947] (-) TimerEvent: {}
+[51.836302] (-) TimerEvent: {}
+[51.937777] (-) TimerEvent: {}
+[52.038833] (-) TimerEvent: {}
+[52.140098] (-) TimerEvent: {}
+[52.242039] (-) TimerEvent: {}
+[52.343124] (-) TimerEvent: {}
+[52.444572] (-) TimerEvent: {}
+[52.545489] (-) TimerEvent: {}
+[52.646444] (-) TimerEvent: {}
+[52.747423] (-) TimerEvent: {}
+[52.848377] (-) TimerEvent: {}
+[52.949819] (-) TimerEvent: {}
+[53.050816] (-) TimerEvent: {}
+[53.151758] (-) TimerEvent: {}
+[53.252730] (-) TimerEvent: {}
+[53.353996] (-) TimerEvent: {}
+[53.455015] (-) TimerEvent: {}
+[53.555912] (-) TimerEvent: {}
+[53.656911] (-) TimerEvent: {}
+[53.757798] (-) TimerEvent: {}
+[53.858743] (-) TimerEvent: {}
+[53.865986] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[53.958979] (-) TimerEvent: {}
+[54.059850] (-) TimerEvent: {}
+[54.160639] (-) TimerEvent: {}
+[54.261419] (-) TimerEvent: {}
+[54.362182] (-) TimerEvent: {}
+[54.462966] (-) TimerEvent: {}
+[54.563737] (-) TimerEvent: {}
+[54.664566] (-) TimerEvent: {}
+[54.765305] (-) TimerEvent: {}
+[54.866048] (-) TimerEvent: {}
+[54.966844] (-) TimerEvent: {}
+[55.067630] (-) TimerEvent: {}
+[55.168396] (-) TimerEvent: {}
+[55.269202] (-) TimerEvent: {}
+[55.369959] (-) TimerEvent: {}
+[55.470727] (-) TimerEvent: {}
+[55.571444] (-) TimerEvent: {}
+[55.672222] (-) TimerEvent: {}
+[55.773167] (-) TimerEvent: {}
+[55.874011] (-) TimerEvent: {}
+[55.974819] (-) TimerEvent: {}
+[56.075607] (-) TimerEvent: {}
+[56.176432] (-) TimerEvent: {}
+[56.277265] (-) TimerEvent: {}
+[56.378046] (-) TimerEvent: {}
+[56.478926] (-) TimerEvent: {}
+[56.580060] (-) TimerEvent: {}
+[56.680982] (-) TimerEvent: {}
+[56.781909] (-) TimerEvent: {}
+[56.883162] (-) TimerEvent: {}
+[56.984212] (-) TimerEvent: {}
+[57.085238] (-) TimerEvent: {}
+[57.186202] (-) TimerEvent: {}
+[57.287103] (-) TimerEvent: {}
+[57.388110] (-) TimerEvent: {}
+[57.489285] (-) TimerEvent: {}
+[57.590140] (-) TimerEvent: {}
+[57.691243] (-) TimerEvent: {}
+[57.792462] (-) TimerEvent: {}
+[57.893743] (-) TimerEvent: {}
+[57.994895] (-) TimerEvent: {}
+[58.095657] (-) TimerEvent: {}
+[58.196443] (-) TimerEvent: {}
+[58.297287] (-) TimerEvent: {}
+[58.398050] (-) TimerEvent: {}
+[58.498796] (-) TimerEvent: {}
+[58.599556] (-) TimerEvent: {}
+[58.700333] (-) TimerEvent: {}
+[58.801126] (-) TimerEvent: {}
+[58.901975] (-) TimerEvent: {}
+[59.002915] (-) TimerEvent: {}
+[59.103766] (-) TimerEvent: {}
+[59.204594] (-) TimerEvent: {}
+[59.305606] (-) TimerEvent: {}
+[59.407452] (-) TimerEvent: {}
+[59.509223] (-) TimerEvent: {}
+[59.610024] (-) TimerEvent: {}
+[59.710901] (-) TimerEvent: {}
+[59.812002] (-) TimerEvent: {}
+[59.913047] (-) TimerEvent: {}
+[60.013804] (-) TimerEvent: {}
+[60.114560] (-) TimerEvent: {}
+[60.215276] (-) TimerEvent: {}
+[60.288074] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[60.315462] (-) TimerEvent: {}
+[60.416216] (-) TimerEvent: {}
+[60.517037] (-) TimerEvent: {}
+[60.617770] (-) TimerEvent: {}
+[60.718574] (-) TimerEvent: {}
+[60.819519] (-) TimerEvent: {}
+[60.920577] (-) TimerEvent: {}
+[61.021510] (-) TimerEvent: {}
+[61.122478] (-) TimerEvent: {}
+[61.223612] (-) TimerEvent: {}
+[61.324813] (-) TimerEvent: {}
+[61.425749] (-) TimerEvent: {}
+[61.526673] (-) TimerEvent: {}
+[61.627602] (-) TimerEvent: {}
+[61.728852] (-) TimerEvent: {}
+[61.830468] (-) TimerEvent: {}
+[61.931890] (-) TimerEvent: {}
+[62.033281] (-) TimerEvent: {}
+[62.134587] (-) TimerEvent: {}
+[62.235856] (-) TimerEvent: {}
+[62.336997] (-) TimerEvent: {}
+[62.438052] (-) TimerEvent: {}
+[62.539351] (-) TimerEvent: {}
+[62.640626] (-) TimerEvent: {}
+[62.741651] (-) TimerEvent: {}
+[62.843028] (-) TimerEvent: {}
+[62.944452] (-) TimerEvent: {}
+[63.045939] (-) TimerEvent: {}
+[63.147348] (-) TimerEvent: {}
+[63.248758] (-) TimerEvent: {}
+[63.350036] (-) TimerEvent: {}
+[63.451302] (-) TimerEvent: {}
+[63.552369] (-) TimerEvent: {}
+[63.653533] (-) TimerEvent: {}
+[63.754442] (-) TimerEvent: {}
+[63.855568] (-) TimerEvent: {}
+[63.956739] (-) TimerEvent: {}
+[64.057692] (-) TimerEvent: {}
+[64.158790] (-) TimerEvent: {}
+[64.259986] (-) TimerEvent: {}
+[64.360889] (-) TimerEvent: {}
+[64.461751] (-) TimerEvent: {}
+[64.562473] (-) TimerEvent: {}
+[64.663175] (-) TimerEvent: {}
+[64.763909] (-) TimerEvent: {}
+[64.864655] (-) TimerEvent: {}
+[64.965419] (-) TimerEvent: {}
+[65.066184] (-) TimerEvent: {}
+[65.167100] (-) TimerEvent: {}
+[65.267949] (-) TimerEvent: {}
+[65.368704] (-) TimerEvent: {}
+[65.469576] (-) TimerEvent: {}
+[65.570612] (-) TimerEvent: {}
+[65.671329] (-) TimerEvent: {}
+[65.717561] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[65.771542] (-) TimerEvent: {}
+[65.872290] (-) TimerEvent: {}
+[65.938230] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[65.961063] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[65.976239] (-) TimerEvent: {}
+[66.078858] (-) TimerEvent: {}
+[66.155527] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nyp-bot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap/lib:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd/lib:/home/nyp-bot/ros2_humble/install/mcap_vendor/lib:/home/nyp-bot/ros2_humble/install/rviz_common/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins/lib:/home/nyp-bot/ros2_humble/install/rosbag2_compression/lib:/home/nyp-bot/ros2_humble/install/rosbag2_cpp/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage/lib:/home/nyp-bot/ros2_humble/install/camera_info_manager/lib:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers/lib:/home/nyp-bot/ros2_humble/install/interactive_markers/lib:/home/nyp-bot/ros2_humble/install/visualization_msgs/lib:/home/nyp-bot/ros2_humble/install/robot_state_publisher/lib:/home/nyp-bot/ros2_humble/install/kdl_parser/lib:/home/nyp-bot/ros2_humble/install/urdf/lib:/home/nyp-bot/ros2_humble/install/urdfdom/lib:/home/nyp-bot/ros2_humble/install/tf2_ros/lib:/home/nyp-bot/ros2_humble/install/tf2_msgs/lib:/home/nyp-bot/ros2_humble/install/test_msgs/lib:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata/lib:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces/lib:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp/lib:/home/nyp-bot/ros2_humble/install/image_transport/lib:/home/nyp-bot/ros2_humble/install/message_filters/lib:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp/lib:/home/nyp-bot/ros2_humble/install/composition/lib:/home/nyp-bot/ros2_humble/install/laser_geometry/lib:/home/nyp-bot/ros2_humble/install/rclpy/lib:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp/lib:/home/nyp-bot/ros2_humble/install/rclcpp_action/lib:/home/nyp-bot/ros2_humble/install/rcl_action/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set/lib:/home/nyp-bot/ros2_humble/install/example_interfaces/lib:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces/lib:/home/nyp-bot/ros2_humble/install/action_msgs/lib:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs/lib:/home/nyp-bot/ros2_humble/install/trajectory_msgs/lib:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp/lib:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber/lib:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition/lib:/home/nyp-bot/ros2_humble/install/rclcpp_components/lib:/home/nyp-bot/ros2_humble/install/rclcpp/lib:/home/nyp-bot/ros2_humble/install/rcl_lifecycle/lib:/home/nyp-bot/ros2_humble/install/libstatistics_collector/lib:/home/nyp-bot/ros2_humble/install/rcl/lib:/home/nyp-bot/ros2_humble/install/rmw_implementation/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp/lib:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp/lib:/home/nyp-bot/ros2_humble/install/tracetools/lib:/home/nyp-bot/ros2_humble/install/qt_gui_cpp/lib:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl/lib:/home/nyp-bot/ros2_humble/install/tf2/lib:/home/nyp-bot/ros2_humble/install/stereo_msgs/lib:/home/nyp-bot/ros2_humble/install/std_srvs/lib:/home/nyp-bot/ros2_humble/install/shape_msgs/lib:/home/nyp-bot/ros2_humble/install/map_msgs/lib:/home/nyp-bot/ros2_humble/install/sensor_msgs/lib:/home/nyp-bot/ros2_humble/install/nav_msgs/lib:/home/nyp-bot/ros2_humble/install/diagnostic_msgs/lib:/home/nyp-bot/ros2_humble/install/geometry_msgs/lib:/home/nyp-bot/ros2_humble/install/actionlib_msgs/lib:/home/nyp-bot/ros2_humble/install/std_msgs/lib:/home/nyp-bot/ros2_humble/install/statistics_msgs/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog/lib:/home/nyp-bot/ros2_humble/install/rviz_rendering/lib:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/nyp-bot/ros2_humble/install/rttest/lib:/home/nyp-bot/ros2_humble/install/rosgraph_msgs/lib:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces/lib:/home/nyp-bot/ros2_humble/install/rmw_dds_common/lib:/home/nyp-bot/ros2_humble/install/composition_interfaces/lib:/home/nyp-bot/ros2_humble/install/rcl_interfaces/lib:/home/nyp-bot/ros2_humble/install/pendulum_msgs/lib:/home/nyp-bot/ros2_humble/install/lifecycle_msgs/lib:/home/nyp-bot/ros2_humble/install/builtin_interfaces/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/lib:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser/lib:/home/nyp-bot/ros2_humble/install/rmw/lib:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c/lib:/home/nyp-bot/ros2_humble/install/resource_retriever/lib:/home/nyp-bot/ros2_humble/install/class_loader/lib:/home/nyp-bot/ros2_humble/install/rcpputils/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_noop/lib:/home/nyp-bot/ros2_humble/install/rcl_logging_interface/lib:/home/nyp-bot/ros2_humble/install/rcutils/lib:/home/nyp-bot/ros2_humble/install/performance_test_fixture/lib:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib:/home/nyp-bot/ros2_humble/install/mimick_vendor/lib:/home/nyp-bot/ros2_humble/install/libyaml_vendor/lib:/home/nyp-bot/ros2_humble/install/keyboard_handler/lib:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib:/home/nyp-bot/ros2_humble/install/cyclonedds/lib:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib:/home/nyp-bot/ros2_humble/install/fastrtps/lib:/home/nyp-bot/ros2_humble/install/fastcdr/lib:/home/nyp-bot/ros2_humble/install/ament_index_cpp/lib'), ('HOME', '/home/nyp-bot'), ('OLDPWD', '/home/nyp-bot/ydlidar_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nyp-bot/ydlidar_ros2_driver-master/install:/home/nyp-bot/ros2_humble/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nyp-bot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nyp-bot/ros2_humble/install/urdfdom/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/urdfdom/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/urdfdom_headers/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/test_osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_math6_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_math6_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_cmake2_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/ignition_cmake2_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/cyclonedds/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_posh/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/gmock_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/gmock_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/gtest_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor/lib/pkgconfig:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nyp-bot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nyp-bot/ros2_humble/install/urdfdom/bin:/home/nyp-bot/ros2_humble/install/rqt_graph/bin:/home/nyp-bot/ros2_humble/install/rqt_gui/bin:/home/nyp-bot/ros2_humble/install/ros2cli/bin:/home/nyp-bot/ros2_humble/install/ament_uncrustify/bin:/home/nyp-bot/ros2_humble/install/tlsf_cpp/bin:/home/nyp-bot/ros2_humble/install/rttest/bin:/home/nyp-bot/ros2_humble/install/rosidl_cli/bin:/home/nyp-bot/ros2_humble/install/launch_testing/bin:/home/nyp-bot/ros2_humble/install/iceoryx_introspection/bin:/home/nyp-bot/ros2_humble/install/cyclonedds/bin:/home/nyp-bot/ros2_humble/install/iceoryx_posh/bin:/home/nyp-bot/ros2_humble/install/fastrtps/bin:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor/bin:/home/nyp-bot/ros2_humble/install/ament_xmllint/bin:/home/nyp-bot/ros2_humble/install/ament_pyflakes/bin:/home/nyp-bot/ros2_humble/install/ament_pycodestyle/bin:/home/nyp-bot/ros2_humble/install/ament_pep257/bin:/home/nyp-bot/ros2_humble/install/ament_pclint/bin:/home/nyp-bot/ros2_humble/install/ament_mypy/bin:/home/nyp-bot/ros2_humble/install/ament_lint_cmake/bin:/home/nyp-bot/ros2_humble/install/ament_flake8/bin:/home/nyp-bot/ros2_humble/install/ament_copyright/bin:/home/nyp-bot/ros2_humble/install/ament_index_python/bin:/home/nyp-bot/ros2_humble/install/ament_cpplint/bin:/home/nyp-bot/ros2_humble/install/ament_cppcheck/bin:/home/nyp-bot/ros2_humble/install/ament_clang_tidy/bin:/home/nyp-bot/ros2_humble/install/ament_clang_format/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nypbot-desktop:@/tmp/.ICE-unix/1122,unix/nypbot-desktop:/tmp/.ICE-unix/1122'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02b1a9ec_5233_4a61_b6ab_993f5cb5ecca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R4NYF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/nyp-bot/ydlidar_ros2_driver-master/install/ydlidar_ros2_driver:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd:/home/nyp-bot/ros2_humble/install/mcap_vendor:/home/nyp-bot/ros2_humble/install/zstd_vendor:/home/nyp-bot/ros2_humble/install/rviz_visual_testing_framework:/home/nyp-bot/ros2_humble/install/rviz_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins:/home/nyp-bot/ros2_humble/install/rosbag2_compression:/home/nyp-bot/ros2_humble/install/rosbag2_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_storage:/home/nyp-bot/ros2_humble/install/camera_info_manager:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers:/home/nyp-bot/ros2_humble/install/yaml_cpp_vendor:/home/nyp-bot/ros2_humble/install/interactive_markers:/home/nyp-bot/ros2_humble/install/common_interfaces:/home/nyp-bot/ros2_humble/install/visualization_msgs:/home/nyp-bot/ros2_humble/install/robot_state_publisher:/home/nyp-bot/ros2_humble/install/kdl_parser:/home/nyp-bot/ros2_humble/install/urdf:/home/nyp-bot/ros2_humble/install/urdf_parser_plugin:/home/nyp-bot/ros2_humble/install/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_launch:/home/nyp-bot/ros2_humble/install/topic_monitor:/home/nyp-bot/ros2_humble/install/tf2_tools:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs:/home/nyp-bot/ros2_humble/install/tf2_kdl:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs:/home/nyp-bot/ros2_humble/install/examples_tf2_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py:/home/nyp-bot/ros2_humble/install/tf2_eigen:/home/nyp-bot/ros2_humble/install/tf2_bullet:/home/nyp-bot/ros2_humble/install/tf2_ros:/home/nyp-bot/ros2_humble/install/tf2_py:/home/nyp-bot/ros2_humble/install/tf2_msgs:/home/nyp-bot/ros2_humble/install/test_msgs:/home/nyp-bot/ros2_humble/install/sros2_cmake:/home/nyp-bot/ros2_humble/install/sros2:/home/nyp-bot/ros2_humble/install/rqt_topic:/home/nyp-bot/ros2_humble/install/rqt_srv:/home/nyp-bot/ros2_humble/install/rqt_shell:/home/nyp-bot/ros2_humble/install/rqt_service_caller:/home/nyp-bot/ros2_humble/install/rqt_reconfigure:/home/nyp-bot/ros2_humble/install/rqt_py_console:/home/nyp-bot/ros2_humble/install/rqt_publisher:/home/nyp-bot/ros2_humble/install/rqt_plot:/home/nyp-bot/ros2_humble/install/rqt_action:/home/nyp-bot/ros2_humble/install/rqt_msg:/home/nyp-bot/ros2_humble/install/rqt_console:/home/nyp-bot/ros2_humble/install/rqt_py_common:/home/nyp-bot/ros2_humble/install/rqt_graph:/home/nyp-bot/ros2_humble/install/rqt_gui_py:/home/nyp-bot/ros2_humble/install/rqt_gui:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/nyp-bot/ros2_humble/install/ros_testing:/home/nyp-bot/ros2_humble/install/ros2trace:/home/nyp-bot/ros2_humble/install/ros2topic:/home/nyp-bot/ros2_humble/install/ros2test:/home/nyp-bot/ros2_humble/install/ros2component:/home/nyp-bot/ros2_humble/install/ros2param:/home/nyp-bot/ros2_humble/install/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2service:/home/nyp-bot/ros2_humble/install/ros2run:/home/nyp-bot/ros2_humble/install/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2launch:/home/nyp-bot/ros2_humble/install/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2node:/home/nyp-bot/ros2_humble/install/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2interface:/home/nyp-bot/ros2_humble/install/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces:/home/nyp-bot/ros2_humble/install/ros2action:/home/nyp-bot/ros2_humble/install/ros2cli:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp:/home/nyp-bot/ros2_humble/install/image_transport:/home/nyp-bot/ros2_humble/install/message_filters:/home/nyp-bot/ros2_humble/install/launch_testing_ros:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp:/home/nyp-bot/ros2_humble/install/composition:/home/nyp-bot/ros2_humble/install/launch_ros:/home/nyp-bot/ros2_humble/install/laser_geometry:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/demo_nodes_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py:/home/nyp-bot/ros2_humble/install/rclpy:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp:/home/nyp-bot/ros2_humble/install/rclcpp_action:/home/nyp-bot/ros2_humble/install/rcl_action:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclcpp_async_client:/home/nyp-bot/ros2_humble/install/example_interfaces:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces:/home/nyp-bot/ros2_humble/install/action_msgs:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs:/home/nyp-bot/ros2_humble/install/ament_lint_common:/home/nyp-bot/ros2_humble/install/ament_cmake_uncrustify:/home/nyp-bot/ros2_humble/install/ament_uncrustify:/home/nyp-bot/ros2_humble/install/uncrustify_vendor:/home/nyp-bot/ros2_humble/install/trajectory_msgs:/home/nyp-bot/ros2_humble/install/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_read:/home/nyp-bot/ros2_humble/install/topic_statistics_demo:/home/nyp-bot/ros2_humble/install/tlsf_cpp:/home/nyp-bot/ros2_humble/install/test_tracetools:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_test_common:/home/nyp-bot/ros2_humble/install/ros2lifecycle_test_fixtures:/home/nyp-bot/ros2_humble/install/lifecycle:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition:/home/nyp-bot/ros2_humble/install/rclcpp_components:/home/nyp-bot/ros2_humble/install/intra_process_demo:/home/nyp-bot/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_timer:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclcpp_cbg_executor:/home/nyp-bot/ros2_humble/install/dummy_sensors:/home/nyp-bot/ros2_humble/install/dummy_map_server:/home/nyp-bot/ros2_humble/install/rclcpp:/home/nyp-bot/ros2_humble/install/rcl_lifecycle:/home/nyp-bot/ros2_humble/install/libstatistics_collector:/home/nyp-bot/ros2_humble/install/rcl:/home/nyp-bot/ros2_humble/install/rmw_implementation:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp:/home/nyp-bot/ros2_humble/install/tracetools:/home/nyp-bot/ros2_humble/install/tlsf:/home/nyp-bot/ros2_humble/install/tinyxml_vendor:/home/nyp-bot/ros2_humble/install/qt_gui_core:/home/nyp-bot/ros2_humble/install/qt_gui_cpp:/home/nyp-bot/ros2_humble/install/pluginlib:/home/nyp-bot/ros2_humble/install/tinyxml2_vendor:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl:/home/nyp-bot/ros2_humble/install/tf2:/home/nyp-bot/ros2_humble/install/test_rmw_implementation:/home/nyp-bot/ros2_humble/install/test_quality_of_service:/home/nyp-bot/ros2_humble/install/test_launch_testing:/home/nyp-bot/ros2_humble/install/test_interface_files:/home/nyp-bot/ros2_humble/install/test_cli_remapping:/home/nyp-bot/ros2_humble/install/test_cli:/home/nyp-bot/ros2_humble/install/qt_gui_app:/home/nyp-bot/ros2_humble/install/qt_gui:/home/nyp-bot/ros2_humble/install/tango_icons_vendor:/home/nyp-bot/ros2_humble/install/stereo_msgs:/home/nyp-bot/ros2_humble/install/std_srvs:/home/nyp-bot/ros2_humble/install/shape_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/map_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs:/home/nyp-bot/ros2_humble/install/nav_msgs:/home/nyp-bot/ros2_humble/install/diagnostic_msgs:/home/nyp-bot/ros2_humble/install/geometry_msgs:/home/nyp-bot/ros2_humble/install/actionlib_msgs:/home/nyp-bot/ros2_humble/install/std_msgs:/home/nyp-bot/ros2_humble/install/statistics_msgs:/home/nyp-bot/ros2_humble/install/sqlite3_vendor:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog:/home/nyp-bot/ros2_humble/install/spdlog_vendor:/home/nyp-bot/ros2_humble/install/shared_queues_vendor:/home/nyp-bot/ros2_humble/install/rviz_rendering_tests:/home/nyp-bot/ros2_humble/install/rviz_rendering:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor:/home/nyp-bot/ros2_humble/install/rviz_assimp_vendor:/home/nyp-bot/ros2_humble/install/rttest:/home/nyp-bot/ros2_humble/install/rmw_connextddsmicro:/home/nyp-bot/ros2_humble/install/rmw_connextdds:/home/nyp-bot/ros2_humble/install/rmw_connextdds_common:/home/nyp-bot/ros2_humble/install/rti_connext_dds_cmake_module:/home/nyp-bot/ros2_humble/install/rosgraph_msgs:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces:/home/nyp-bot/ros2_humble/install/rmw_dds_common:/home/nyp-bot/ros2_humble/install/composition_interfaces:/home/nyp-bot/ros2_humble/install/rcl_interfaces:/home/nyp-bot/ros2_humble/install/pendulum_msgs:/home/nyp-bot/ros2_humble/install/lifecycle_msgs:/home/nyp-bot/ros2_humble/install/builtin_interfaces:/home/nyp-bot/ros2_humble/install/rosidl_default_runtime:/home/nyp-bot/ros2_humble/install/rosidl_default_generators:/home/nyp-bot/ros2_humble/install/rosidl_generator_py:/home/nyp-bot/ros2_humble/install/rpyutils:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp:/home/nyp-bot/ros2_humble/install/rosidl_runtime_cpp:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser:/home/nyp-bot/ros2_humble/install/rmw:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c:/home/nyp-bot/ros2_humble/install/rosidl_generator_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_interface:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl:/home/nyp-bot/ros2_humble/install/rosidl_cmake:/home/nyp-bot/ros2_humble/install/rosidl_parser:/home/nyp-bot/ros2_humble/install/rosidl_adapter:/home/nyp-bot/ros2_humble/install/rosidl_cli:/home/nyp-bot/ros2_humble/install/ros_environment:/home/nyp-bot/ros2_humble/install/rmw_implementation_cmake:/home/nyp-bot/ros2_humble/install/resource_retriever:/home/nyp-bot/ros2_humble/install/class_loader:/home/nyp-bot/ros2_humble/install/rcpputils:/home/nyp-bot/ros2_humble/install/rcl_logging_noop:/home/nyp-bot/ros2_humble/install/rcl_logging_interface:/home/nyp-bot/ros2_humble/install/rcutils:/home/nyp-bot/ros2_humble/install/qt_gui_py_common:/home/nyp-bot/ros2_humble/install/qt_dotgraph:/home/nyp-bot/ros2_humble/install/python_qt_binding:/home/nyp-bot/ros2_humble/install/python_orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/launch_testing_ament_cmake:/home/nyp-bot/ros2_humble/install/python_cmake_module:/home/nyp-bot/ros2_humble/install/pybind11_vendor:/home/nyp-bot/ros2_humble/install/performance_test_fixture:/home/nyp-bot/ros2_humble/install/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_testing:/home/nyp-bot/ros2_humble/install/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_xml:/home/nyp-bot/ros2_humble/install/launch:/home/nyp-bot/ros2_humble/install/osrf_pycommon:/home/nyp-bot/ros2_humble/install/orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/mimick_vendor:/home/nyp-bot/ros2_humble/install/libyaml_vendor:/home/nyp-bot/ros2_humble/install/libcurl_vendor:/home/nyp-bot/ros2_humble/install/keyboard_handler:/home/nyp-bot/ros2_humble/install/ament_cmake_ros:/home/nyp-bot/ros2_humble/install/ament_cmake_auto:/home/nyp-bot/ros2_humble/install/ament_cmake_gmock:/home/nyp-bot/ros2_humble/install/ament_cmake_gtest:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark:/home/nyp-bot/ros2_humble/install/fastrtps_cmake_module:/home/nyp-bot/ros2_humble/install/eigen3_cmake_module:/home/nyp-bot/ros2_humble/install/domain_coordinator:/home/nyp-bot/ros2_humble/install/console_bridge_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_xmllint:/home/nyp-bot/ros2_humble/install/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_cmake_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_cmake_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_cmake_pep257:/home/nyp-bot/ros2_humble/install/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_cmake_pclint:/home/nyp-bot/ros2_humble/install/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_lint_auto:/home/nyp-bot/ros2_humble/install/ament_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_version:/home/nyp-bot/ros2_humble/install/ament_cmake_vendor_package:/home/nyp-bot/ros2_humble/install/ament_cmake_pytest:/home/nyp-bot/ros2_humble/install/ament_cmake_nose:/home/nyp-bot/ros2_humble/install/ament_cmake_mypy:/home/nyp-bot/ros2_humble/install/ament_cmake_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_flake8:/home/nyp-bot/ros2_humble/install/ament_cmake_cpplint:/home/nyp-bot/ros2_humble/install/ament_cmake_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cmake_copyright:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_format:/home/nyp-bot/ros2_humble/install/ament_cmake_test:/home/nyp-bot/ros2_humble/install/ament_cmake_target_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_python:/home/nyp-bot/ros2_humble/install/ament_cmake_export_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_gen_version_h:/home/nyp-bot/ros2_humble/install/ament_cmake_export_targets:/home/nyp-bot/ros2_humble/install/ament_cmake_export_link_flags:/home/nyp-bot/ros2_humble/install/ament_cmake_export_interfaces:/home/nyp-bot/ros2_humble/install/ament_cmake_export_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_export_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_export_definitions:/home/nyp-bot/ros2_humble/install/ament_cmake_core:/home/nyp-bot/ros2_humble/install/ament_package:/home/nyp-bot/ros2_humble/install/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_lint:/home/nyp-bot/ros2_humble/install/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_index_cpp:/home/nyp-bot/ros2_humble/install/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_format'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/interactive_markers/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_test/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tracetools_launch:/home/nyp-bot/ros2_humble/install/tracetools_launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/topic_monitor:/home/nyp-bot/ros2_humble/install/topic_monitor/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tf2_tools:/home/nyp-bot/ros2_humble/install/tf2_tools/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_kdl/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/examples_tf2_py:/home/nyp-bot/ros2_humble/install/examples_tf2_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tf2_ros_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/tf2_py/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/tf2_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/test_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/sros2:/home/nyp-bot/ros2_humble/install/sros2/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_topic/src:/home/nyp-bot/ros2_humble/install/rqt_topic/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_srv/src:/home/nyp-bot/ros2_humble/install/rqt_srv/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_shell/src:/home/nyp-bot/ros2_humble/install/rqt_shell/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_service_caller/src:/home/nyp-bot/ros2_humble/install/rqt_service_caller/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_reconfigure/src:/home/nyp-bot/ros2_humble/install/rqt_reconfigure/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_py_console/src:/home/nyp-bot/ros2_humble/install/rqt_py_console/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_publisher/src:/home/nyp-bot/ros2_humble/install/rqt_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_plot/src:/home/nyp-bot/ros2_humble/install/rqt_plot/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_action/src:/home/nyp-bot/ros2_humble/install/rqt_action/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_msg/src:/home/nyp-bot/ros2_humble/install/rqt_msg/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_console/src:/home/nyp-bot/ros2_humble/install/rqt_console/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rqt_py_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rqt_graph/src:/home/nyp-bot/ros2_humble/install/rqt_graph/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_gui_py/src:/home/nyp-bot/ros2_humble/install/rqt_gui_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/rqt_gui/src:/home/nyp-bot/ros2_humble/install/rqt_gui/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ros2trace:/home/nyp-bot/ros2_humble/install/ros2trace/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2topic:/home/nyp-bot/ros2_humble/install/ros2topic/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2test:/home/nyp-bot/ros2_humble/install/ros2test/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2component:/home/nyp-bot/ros2_humble/install/ros2component/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2param:/home/nyp-bot/ros2_humble/install/ros2param/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2lifecycle/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2service:/home/nyp-bot/ros2_humble/install/ros2service/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2run:/home/nyp-bot/ros2_humble/install/ros2run/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2plugin/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2launch:/home/nyp-bot/ros2_humble/install/ros2launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2pkg/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2node:/home/nyp-bot/ros2_humble/install/ros2node/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2multicast/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2interface:/home/nyp-bot/ros2_humble/install/ros2interface/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2doctor/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ros2action:/home/nyp-bot/ros2_humble/install/ros2action/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ros2cli:/home/nyp-bot/ros2_humble/install/ros2cli/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/message_filters/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/launch_testing_ros:/home/nyp-bot/ros2_humble/install/launch_testing_ros/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_ros:/home/nyp-bot/ros2_humble/install/launch_ros/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/laser_geometry/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/demo_nodes_py:/home/nyp-bot/ros2_humble/install/demo_nodes_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/action_tutorials_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rclpy/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/example_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/action_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ament_uncrustify:/home/nyp-bot/ros2_humble/install/ament_uncrustify/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_trace/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/tracetools_read:/home/nyp-bot/ros2_humble/install/tracetools_read/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/qt_gui_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_gui/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/std_srvs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/shape_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/sensor_msgs_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/map_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/nav_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/std_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rmw_dds_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/pendulum_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rpyutils:/home/nyp-bot/ros2_humble/install/rpyutils/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_c/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_cmake/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_parser/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rosidl_adapter/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/rosidl_cli:/home/nyp-bot/ros2_humble/install/rosidl_cli/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/resource_retriever/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/rcutils/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_gui_py_common/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/qt_dotgraph/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/install/python_qt_binding/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_pytest/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_testing:/home/nyp-bot/ros2_humble/install/launch_testing/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_yaml/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch_xml:/home/nyp-bot/ros2_humble/install/launch_xml/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/launch:/home/nyp-bot/ros2_humble/install/launch/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/osrf_pycommon:/home/nyp-bot/ros2_humble/install/osrf_pycommon/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/domain_coordinator:/home/nyp-bot/ros2_humble/install/domain_coordinator/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_xmllint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pyflakes/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pycodestyle/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_pep257/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_pclint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/nyp-bot/ros2_humble/build/ament_package:/home/nyp-bot/ros2_humble/install/ament_package/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_mypy/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_lint_cmake/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_flake8/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_copyright/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_lint:/home/nyp-bot/ros2_humble/install/ament_lint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_index_python/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cpplint/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cppcheck/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_tidy/lib/python3.10/site-packages:/home/nyp-bot/ros2_humble/build/ament_clang_format:/home/nyp-bot/ros2_humble/install/ament_clang_format/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nyp-bot/ydlidar_ros2_driver-master/install/ydlidar_ros2_driver:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap:/home/nyp-bot/ros2_humble/install/rosbag2_compression_zstd:/home/nyp-bot/ros2_humble/install/mcap_vendor:/home/nyp-bot/ros2_humble/install/zstd_vendor:/home/nyp-bot/ros2_humble/install/rviz_visual_testing_framework:/home/nyp-bot/ros2_humble/install/rviz_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_default_plugins:/home/nyp-bot/ros2_humble/install/rosbag2_compression:/home/nyp-bot/ros2_humble/install/rosbag2_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_storage:/home/nyp-bot/ros2_humble/install/camera_info_manager:/home/nyp-bot/ros2_humble/install/camera_calibration_parsers:/home/nyp-bot/ros2_humble/install/yaml_cpp_vendor:/home/nyp-bot/ros2_humble/install/interactive_markers:/home/nyp-bot/ros2_humble/install/common_interfaces:/home/nyp-bot/ros2_humble/install/visualization_msgs:/home/nyp-bot/ros2_humble/install/robot_state_publisher:/home/nyp-bot/ros2_humble/install/kdl_parser:/home/nyp-bot/ros2_humble/install/urdf:/home/nyp-bot/ros2_humble/install/urdfdom:/home/nyp-bot/ros2_humble/install/urdf_parser_plugin:/home/nyp-bot/ros2_humble/install/urdfdom_headers:/home/nyp-bot/ros2_humble/install/tf2_sensor_msgs:/home/nyp-bot/ros2_humble/install/tf2_kdl:/home/nyp-bot/ros2_humble/install/tf2_geometry_msgs:/home/nyp-bot/ros2_humble/install/tf2_eigen:/home/nyp-bot/ros2_humble/install/tf2_bullet:/home/nyp-bot/ros2_humble/install/tf2_ros:/home/nyp-bot/ros2_humble/install/tf2_py:/home/nyp-bot/ros2_humble/install/tf2_msgs:/home/nyp-bot/ros2_humble/install/test_msgs:/home/nyp-bot/ros2_humble/install/sros2_cmake:/home/nyp-bot/ros2_humble/install/rqt_py_common:/home/nyp-bot/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/nyp-bot/ros2_humble/install/ros_testing:/home/nyp-bot/ros2_humble/install/ros2cli_test_interfaces:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_cpp:/home/nyp-bot/ros2_humble/install/image_transport:/home/nyp-bot/ros2_humble/install/message_filters:/home/nyp-bot/ros2_humble/install/demo_nodes_cpp:/home/nyp-bot/ros2_humble/install/composition:/home/nyp-bot/ros2_humble/install/laser_geometry:/home/nyp-bot/ros2_humble/install/rclpy:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/nyp-bot/ros2_humble/install/action_tutorials_cpp:/home/nyp-bot/ros2_humble/install/rclcpp_action:/home/nyp-bot/ros2_humble/install/rcl_action:/home/nyp-bot/ros2_humble/install/examples_rclcpp_wait_set:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclcpp_async_client:/home/nyp-bot/ros2_humble/install/example_interfaces:/home/nyp-bot/ros2_humble/install/action_tutorials_interfaces:/home/nyp-bot/ros2_humble/install/action_msgs:/home/nyp-bot/ros2_humble/install/unique_identifier_msgs:/home/nyp-bot/ros2_humble/install/ament_lint_common:/home/nyp-bot/ros2_humble/install/ament_cmake_uncrustify:/home/nyp-bot/ros2_humble/install/uncrustify_vendor:/home/nyp-bot/ros2_humble/install/trajectory_msgs:/home/nyp-bot/ros2_humble/install/topic_statistics_demo:/home/nyp-bot/ros2_humble/install/tlsf_cpp:/home/nyp-bot/ros2_humble/install/test_tracetools:/home/nyp-bot/ros2_humble/install/rqt_gui_cpp:/home/nyp-bot/ros2_humble/install/rosbag2_test_common:/home/nyp-bot/ros2_humble/install/ros2lifecycle_test_fixtures:/home/nyp-bot/ros2_humble/install/lifecycle:/home/nyp-bot/ros2_humble/install/rclcpp_lifecycle:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_composition:/home/nyp-bot/ros2_humble/install/rclcpp_components:/home/nyp-bot/ros2_humble/install/intra_process_demo:/home/nyp-bot/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_timer:/home/nyp-bot/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclcpp_cbg_executor:/home/nyp-bot/ros2_humble/install/dummy_sensors:/home/nyp-bot/ros2_humble/install/dummy_map_server:/home/nyp-bot/ros2_humble/install/rclcpp:/home/nyp-bot/ros2_humble/install/rcl_lifecycle:/home/nyp-bot/ros2_humble/install/libstatistics_collector:/home/nyp-bot/ros2_humble/install/rcl:/home/nyp-bot/ros2_humble/install/rmw_implementation:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/nyp-bot/ros2_humble/install/rmw_cyclonedds_cpp:/home/nyp-bot/ros2_humble/install/tracetools:/home/nyp-bot/ros2_humble/install/tlsf:/home/nyp-bot/ros2_humble/install/tinyxml_vendor:/home/nyp-bot/ros2_humble/install/qt_gui_core:/home/nyp-bot/ros2_humble/install/qt_gui_cpp:/home/nyp-bot/ros2_humble/install/pluginlib:/home/nyp-bot/ros2_humble/install/tinyxml2_vendor:/home/nyp-bot/ros2_humble/install/tf2_eigen_kdl:/home/nyp-bot/ros2_humble/install/tf2:/home/nyp-bot/ros2_humble/install/test_rmw_implementation:/home/nyp-bot/ros2_humble/install/test_quality_of_service:/home/nyp-bot/ros2_humble/install/test_launch_testing:/home/nyp-bot/ros2_humble/install/test_interface_files:/home/nyp-bot/ros2_humble/install/test_cli_remapping:/home/nyp-bot/ros2_humble/install/test_cli:/home/nyp-bot/ros2_humble/install/qt_gui_app:/home/nyp-bot/ros2_humble/install/qt_gui:/home/nyp-bot/ros2_humble/install/tango_icons_vendor:/home/nyp-bot/ros2_humble/install/stereo_msgs:/home/nyp-bot/ros2_humble/install/std_srvs:/home/nyp-bot/ros2_humble/install/shape_msgs:/home/nyp-bot/ros2_humble/install/map_msgs:/home/nyp-bot/ros2_humble/install/sensor_msgs:/home/nyp-bot/ros2_humble/install/nav_msgs:/home/nyp-bot/ros2_humble/install/diagnostic_msgs:/home/nyp-bot/ros2_humble/install/geometry_msgs:/home/nyp-bot/ros2_humble/install/actionlib_msgs:/home/nyp-bot/ros2_humble/install/std_msgs:/home/nyp-bot/ros2_humble/install/statistics_msgs:/home/nyp-bot/ros2_humble/install/sqlite3_vendor:/home/nyp-bot/ros2_humble/install/rcl_logging_spdlog:/home/nyp-bot/ros2_humble/install/spdlog_vendor:/home/nyp-bot/ros2_humble/install/shared_queues_vendor:/home/nyp-bot/ros2_humble/install/rviz_rendering_tests:/home/nyp-bot/ros2_humble/install/rviz_rendering:/home/nyp-bot/ros2_humble/install/rviz_ogre_vendor:/home/nyp-bot/ros2_humble/install/rviz_assimp_vendor:/home/nyp-bot/ros2_humble/install/rttest:/home/nyp-bot/ros2_humble/install/rmw_connextddsmicro:/home/nyp-bot/ros2_humble/install/rmw_connextdds:/home/nyp-bot/ros2_humble/install/rmw_connextdds_common:/home/nyp-bot/ros2_humble/install/rti_connext_dds_cmake_module:/home/nyp-bot/ros2_humble/install/rosgraph_msgs:/home/nyp-bot/ros2_humble/install/rosbag2_interfaces:/home/nyp-bot/ros2_humble/install/rmw_dds_common:/home/nyp-bot/ros2_humble/install/composition_interfaces:/home/nyp-bot/ros2_humble/install/rcl_interfaces:/home/nyp-bot/ros2_humble/install/pendulum_msgs:/home/nyp-bot/ros2_humble/install/lifecycle_msgs:/home/nyp-bot/ros2_humble/install/builtin_interfaces:/home/nyp-bot/ros2_humble/install/rosidl_default_runtime:/home/nyp-bot/ros2_humble/install/rosidl_default_generators:/home/nyp-bot/ros2_humble/install/rosidl_generator_py:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_introspection_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/nyp-bot/ros2_humble/install/rosidl_generator_cpp:/home/nyp-bot/ros2_humble/install/rosidl_runtime_cpp:/home/nyp-bot/ros2_humble/install/rcl_yaml_param_parser:/home/nyp-bot/ros2_humble/install/rmw:/home/nyp-bot/ros2_humble/install/rosidl_runtime_c:/home/nyp-bot/ros2_humble/install/rosidl_generator_c:/home/nyp-bot/ros2_humble/install/rosidl_typesupport_interface:/home/nyp-bot/ros2_humble/install/rosidl_generator_dds_idl:/home/nyp-bot/ros2_humble/install/rosidl_cmake:/home/nyp-bot/ros2_humble/install/rosidl_parser:/home/nyp-bot/ros2_humble/install/rosidl_adapter:/home/nyp-bot/ros2_humble/install/ros_environment:/home/nyp-bot/ros2_humble/install/rmw_implementation_cmake:/home/nyp-bot/ros2_humble/install/resource_retriever:/home/nyp-bot/ros2_humble/install/class_loader:/home/nyp-bot/ros2_humble/install/rcpputils:/home/nyp-bot/ros2_humble/install/rcl_logging_noop:/home/nyp-bot/ros2_humble/install/rcl_logging_interface:/home/nyp-bot/ros2_humble/install/rcutils:/home/nyp-bot/ros2_humble/install/qt_gui_py_common:/home/nyp-bot/ros2_humble/install/qt_dotgraph:/home/nyp-bot/ros2_humble/install/python_qt_binding:/home/nyp-bot/ros2_humble/install/python_orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/launch_testing_ament_cmake:/home/nyp-bot/ros2_humble/install/python_cmake_module:/home/nyp-bot/ros2_humble/install/pybind11_vendor:/home/nyp-bot/ros2_humble/install/performance_test_fixture:/home/nyp-bot/ros2_humble/install/osrf_testing_tools_cpp:/home/nyp-bot/ros2_humble/install/orocos_kdl_vendor:/home/nyp-bot/ros2_humble/install/mimick_vendor:/home/nyp-bot/ros2_humble/install/libyaml_vendor:/home/nyp-bot/ros2_humble/install/libcurl_vendor:/home/nyp-bot/ros2_humble/install/keyboard_handler:/home/nyp-bot/ros2_humble/install/iceoryx_introspection:/home/nyp-bot/ros2_humble/install/cyclonedds:/home/nyp-bot/ros2_humble/install/iceoryx_posh:/home/nyp-bot/ros2_humble/install/iceoryx_hoofs:/home/nyp-bot/ros2_humble/install/iceoryx_binding_c:/home/nyp-bot/ros2_humble/install/ament_cmake_ros:/home/nyp-bot/ros2_humble/install/ament_cmake_auto:/home/nyp-bot/ros2_humble/install/ament_cmake_gmock:/home/nyp-bot/ros2_humble/install/gmock_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_gtest:/home/nyp-bot/ros2_humble/install/gtest_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_google_benchmark:/home/nyp-bot/ros2_humble/install/google_benchmark_vendor:/home/nyp-bot/ros2_humble/install/fastrtps:/home/nyp-bot/ros2_humble/install/foonathan_memory_vendor:/home/nyp-bot/ros2_humble/install/fastrtps_cmake_module:/home/nyp-bot/ros2_humble/install/fastcdr:/home/nyp-bot/ros2_humble/install/eigen3_cmake_module:/home/nyp-bot/ros2_humble/install/console_bridge_vendor:/home/nyp-bot/ros2_humble/install/ament_cmake_xmllint:/home/nyp-bot/ros2_humble/install/ament_cmake_pyflakes:/home/nyp-bot/ros2_humble/install/ament_cmake_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_cmake_pep257:/home/nyp-bot/ros2_humble/install/ament_cmake_pclint:/home/nyp-bot/ros2_humble/install/ament_lint_auto:/home/nyp-bot/ros2_humble/install/ament_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_version:/home/nyp-bot/ros2_humble/install/ament_cmake_vendor_package:/home/nyp-bot/ros2_humble/install/ament_cmake_pytest:/home/nyp-bot/ros2_humble/install/ament_cmake_nose:/home/nyp-bot/ros2_humble/install/ament_cmake_mypy:/home/nyp-bot/ros2_humble/install/ament_cmake_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_cmake_flake8:/home/nyp-bot/ros2_humble/install/ament_cmake_cpplint:/home/nyp-bot/ros2_humble/install/ament_cmake_cppcheck:/home/nyp-bot/ros2_humble/install/ament_cmake_copyright:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_cmake_clang_format:/home/nyp-bot/ros2_humble/install/ament_cmake_test:/home/nyp-bot/ros2_humble/install/ament_cmake_target_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_python:/home/nyp-bot/ros2_humble/install/ament_cmake_export_dependencies:/home/nyp-bot/ros2_humble/install/ament_cmake_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_gen_version_h:/home/nyp-bot/ros2_humble/install/ament_cmake_export_targets:/home/nyp-bot/ros2_humble/install/ament_cmake_export_link_flags:/home/nyp-bot/ros2_humble/install/ament_cmake_export_interfaces:/home/nyp-bot/ros2_humble/install/ament_cmake_export_libraries:/home/nyp-bot/ros2_humble/install/ament_cmake_export_include_directories:/home/nyp-bot/ros2_humble/install/ament_cmake_export_definitions:/home/nyp-bot/ros2_humble/install/ament_cmake_core:/home/nyp-bot/ros2_humble/install/ament_index_cpp:/opt/ros/humble:/home/nyp-bot/ros2_humble/install/tracetools_test:/home/nyp-bot/ros2_humble/install/tracetools_launch:/home/nyp-bot/ros2_humble/install/topic_monitor:/home/nyp-bot/ros2_humble/install/tf2_tools:/home/nyp-bot/ros2_humble/install/examples_tf2_py:/home/nyp-bot/ros2_humble/install/tf2_ros_py:/home/nyp-bot/ros2_humble/install/sros2:/home/nyp-bot/ros2_humble/install/rqt_topic:/home/nyp-bot/ros2_humble/install/rqt_srv:/home/nyp-bot/ros2_humble/install/rqt_shell:/home/nyp-bot/ros2_humble/install/rqt_service_caller:/home/nyp-bot/ros2_humble/install/rqt_reconfigure:/home/nyp-bot/ros2_humble/install/rqt_py_console:/home/nyp-bot/ros2_humble/install/rqt_publisher:/home/nyp-bot/ros2_humble/install/rqt_plot:/home/nyp-bot/ros2_humble/install/rqt_action:/home/nyp-bot/ros2_humble/install/rqt_msg:/home/nyp-bot/ros2_humble/install/rqt_console:/home/nyp-bot/ros2_humble/install/rqt_graph:/home/nyp-bot/ros2_humble/install/rqt_gui_py:/home/nyp-bot/ros2_humble/install/rqt_gui:/home/nyp-bot/ros2_humble/install/ros2trace:/home/nyp-bot/ros2_humble/install/ros2topic:/home/nyp-bot/ros2_humble/install/ros2test:/home/nyp-bot/ros2_humble/install/ros2component:/home/nyp-bot/ros2_humble/install/ros2param:/home/nyp-bot/ros2_humble/install/ros2lifecycle:/home/nyp-bot/ros2_humble/install/ros2service:/home/nyp-bot/ros2_humble/install/ros2run:/home/nyp-bot/ros2_humble/install/ros2plugin:/home/nyp-bot/ros2_humble/install/ros2launch:/home/nyp-bot/ros2_humble/install/ros2pkg:/home/nyp-bot/ros2_humble/install/ros2node:/home/nyp-bot/ros2_humble/install/ros2multicast:/home/nyp-bot/ros2_humble/install/ros2interface:/home/nyp-bot/ros2_humble/install/ros2doctor:/home/nyp-bot/ros2_humble/install/ros2action:/home/nyp-bot/ros2_humble/install/ros2cli:/home/nyp-bot/ros2_humble/install/quality_of_service_demo_py:/home/nyp-bot/ros2_humble/install/launch_testing_ros:/home/nyp-bot/ros2_humble/install/launch_ros:/home/nyp-bot/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_service:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_publisher:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_server:/home/nyp-bot/ros2_humble/install/examples_rclpy_minimal_action_client:/home/nyp-bot/ros2_humble/install/examples_rclpy_guard_conditions:/home/nyp-bot/ros2_humble/install/examples_rclpy_executors:/home/nyp-bot/ros2_humble/install/demo_nodes_py:/home/nyp-bot/ros2_humble/install/camera_info_manager_py:/home/nyp-bot/ros2_humble/install/action_tutorials_py:/home/nyp-bot/ros2_humble/install/ament_uncrustify:/home/nyp-bot/ros2_humble/install/tracetools_trace:/home/nyp-bot/ros2_humble/install/tracetools_read:/home/nyp-bot/ros2_humble/install/sensor_msgs_py:/home/nyp-bot/ros2_humble/install/rpyutils:/home/nyp-bot/ros2_humble/install/rosidl_runtime_py:/home/nyp-bot/ros2_humble/install/rosidl_cli:/home/nyp-bot/ros2_humble/install/launch_pytest:/home/nyp-bot/ros2_humble/install/launch_testing:/home/nyp-bot/ros2_humble/install/launch_yaml:/home/nyp-bot/ros2_humble/install/launch_xml:/home/nyp-bot/ros2_humble/install/launch:/home/nyp-bot/ros2_humble/install/osrf_pycommon:/home/nyp-bot/ros2_humble/install/domain_coordinator:/home/nyp-bot/ros2_humble/install/ament_xmllint:/home/nyp-bot/ros2_humble/install/ament_pyflakes:/home/nyp-bot/ros2_humble/install/ament_pycodestyle:/home/nyp-bot/ros2_humble/install/ament_pep257:/home/nyp-bot/ros2_humble/install/ament_pclint:/home/nyp-bot/ros2_humble/install/ament_package:/home/nyp-bot/ros2_humble/install/ament_mypy:/home/nyp-bot/ros2_humble/install/ament_lint_cmake:/home/nyp-bot/ros2_humble/install/ament_flake8:/home/nyp-bot/ros2_humble/install/ament_copyright:/home/nyp-bot/ros2_humble/install/ament_lint:/home/nyp-bot/ros2_humble/install/ament_index_python:/home/nyp-bot/ros2_humble/install/ament_cpplint:/home/nyp-bot/ros2_humble/install/ament_cppcheck:/home/nyp-bot/ros2_humble/install/ament_clang_tidy:/home/nyp-bot/ros2_humble/install/ament_clang_format')]), 'shell': False}
+[66.181937] (-) TimerEvent: {}
+[66.284044] (-) TimerEvent: {}
+[66.355499] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[66.364887] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[66.369804] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[66.384235] (-) TimerEvent: {}
+[66.485060] (-) TimerEvent: {}
+[66.558162] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[66.585227] (-) TimerEvent: {}
+[66.685943] (-) TimerEvent: {}
+[66.751693] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[66.786134] (-) TimerEvent: {}
+[66.886858] (-) TimerEvent: {}
+[66.936938] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[66.987066] (-) TimerEvent: {}
+[67.087778] (-) TimerEvent: {}
+[67.112981] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[67.188009] (-) TimerEvent: {}
+[67.288766] (-) TimerEvent: {}
+[67.299561] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[67.389037] (-) TimerEvent: {}
+[67.483142] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[67.489196] (-) TimerEvent: {}
+[67.589891] (-) TimerEvent: {}
+[67.664708] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml\n'}
+[67.690090] (-) TimerEvent: {}
+[67.790847] (-) TimerEvent: {}
+[67.848789] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[67.891060] (-) TimerEvent: {}
+[67.991766] (-) TimerEvent: {}
+[68.029779] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[68.091971] (-) TimerEvent: {}
+[68.192762] (-) TimerEvent: {}
+[68.206543] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[68.292943] (-) TimerEvent: {}
+[68.385493] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[68.393095] (-) TimerEvent: {}
+[68.493748] (-) TimerEvent: {}
+[68.570006] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[68.593935] (-) TimerEvent: {}
+[68.694641] (-) TimerEvent: {}
+[68.754001] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml\n'}
+[68.794840] (-) TimerEvent: {}
+[68.895556] (-) TimerEvent: {}
+[68.932115] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml\n'}
+[68.995821] (-) TimerEvent: {}
+[69.096639] (-) TimerEvent: {}
+[69.112692] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[69.196830] (-) TimerEvent: {}
+[69.293455] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[69.296958] (-) TimerEvent: {}
+[69.397625] (-) TimerEvent: {}
+[69.475551] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[69.497830] (-) TimerEvent: {}
+[69.598601] (-) TimerEvent: {}
+[69.657962] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[69.698770] (-) TimerEvent: {}
+[69.799536] (-) TimerEvent: {}
+[69.840992] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[69.899738] (-) TimerEvent: {}
+[70.000621] (-) TimerEvent: {}
+[70.022232] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[70.100805] (-) TimerEvent: {}
+[70.201678] (-) TimerEvent: {}
+[70.207984] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[70.301946] (-) TimerEvent: {}
+[70.399058] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[70.402061] (-) TimerEvent: {}
+[70.502778] (-) TimerEvent: {}
+[70.587467] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[70.602998] (-) TimerEvent: {}
+[70.703725] (-) TimerEvent: {}
+[70.769165] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[70.803916] (-) TimerEvent: {}
+[70.904765] (-) TimerEvent: {}
+[70.959343] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[71.004919] (-) TimerEvent: {}
+[71.105839] (-) TimerEvent: {}
+[71.139726] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[71.206104] (-) TimerEvent: {}
+[71.306952] (-) TimerEvent: {}
+[71.319631] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[71.407195] (-) TimerEvent: {}
+[71.502063] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[71.507365] (-) TimerEvent: {}
+[71.608184] (-) TimerEvent: {}
+[71.688052] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[71.708366] (-) TimerEvent: {}
+[71.809121] (-) TimerEvent: {}
+[71.875712] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[71.909311] (-) TimerEvent: {}
+[72.010020] (-) TimerEvent: {}
+[72.054853] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[72.110235] (-) TimerEvent: {}
+[72.210962] (-) TimerEvent: {}
+[72.233277] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[72.311166] (-) TimerEvent: {}
+[72.410874] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[72.411389] (-) TimerEvent: {}
+[72.511953] (-) TimerEvent: {}
+[72.601897] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[72.612126] (-) TimerEvent: {}
+[72.712918] (-) TimerEvent: {}
+[72.792753] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[72.813119] (-) TimerEvent: {}
+[72.913837] (-) TimerEvent: {}
+[72.981308] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[73.014014] (-) TimerEvent: {}
+[73.114957] (-) TimerEvent: {}
+[73.162338] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[73.215171] (-) TimerEvent: {}
+[73.315889] (-) TimerEvent: {}
+[73.349933] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[73.416165] (-) TimerEvent: {}
+[73.517601] (-) TimerEvent: {}
+[73.619045] (-) TimerEvent: {}
+[73.720023] (-) TimerEvent: {}
+[73.821158] (-) TimerEvent: {}
+[73.922519] (-) TimerEvent: {}
+[73.934360] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[73.941625] (-) EventReactorShutdown: {}

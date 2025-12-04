@@ -1,0 +1,33 @@
+[7.870s] Invoking command in '/home/nyp-bot/ydlidar_ros2_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build install --record /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[10.742s] running egg_info
+[10.744s] creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[10.745s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[10.746s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[10.747s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[10.748s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[10.748s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[10.749s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[10.756s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[10.758s] adding license file 'LICENSE'
+[10.760s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[10.761s] running build
+[10.761s] running build_py
+[10.762s] creating /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build
+[10.762s] creating /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build/lib
+[10.763s] copying teleop_twist_keyboard.py -> /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build/lib
+[10.763s] running install
+[10.764s] running install_lib
+[10.767s] copying /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[10.782s] byte-compiling /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[10.787s] running install_data
+[10.788s] creating /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/share/ament_index
+[10.789s] creating /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[10.789s] creating /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[10.790s] copying resource/teleop_twist_keyboard -> /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[10.790s] copying package.xml -> /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[10.791s] running install_egg_info
+[10.809s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.1-py3.10.egg-info
+[10.815s] running install_scripts
+[11.035s] Installing teleop_twist_keyboard script to /home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[11.036s] writing list of installed files to '/home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/install.log'
+[11.171s] Invoked command in '/home/nyp-bot/ydlidar_ros2_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nyp-bot/ydlidar_ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/build install --record /home/nyp-bot/ydlidar_ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data

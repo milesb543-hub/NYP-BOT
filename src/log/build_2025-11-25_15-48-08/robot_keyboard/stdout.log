@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/robot_keyboard/robot_keyboard.egg-info
+writing ../build/robot_keyboard/robot_keyboard.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_keyboard/robot_keyboard.egg-info/dependency_links.txt
+writing entry points to ../build/robot_keyboard/robot_keyboard.egg-info/entry_points.txt
+writing requirements to ../build/robot_keyboard/robot_keyboard.egg-info/requires.txt
+writing top-level names to ../build/robot_keyboard/robot_keyboard.egg-info/top_level.txt
+writing manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+reading manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/build
+creating /home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/build/lib
+creating /home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/build/lib/robot_keyboard
+copying robot_keyboard/__init__.py -> /home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/build/lib/robot_keyboard
+running install
+running install_lib
+creating /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+copying /home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/build/lib/robot_keyboard/__init__.py -> /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+byte-compiling /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/share/ament_index
+creating /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/share/ament_index/resource_index
+creating /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/share/ament_index/resource_index/packages
+copying resource/robot_keyboard -> /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/share/ament_index/resource_index/packages
+copying package.xml -> /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/share/robot_keyboard
+running install_egg_info
+Copying ../build/robot_keyboard/robot_keyboard.egg-info to /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_test script to /home/nyp-bot/ydlidar_ros2_ws/src/install/robot_keyboard/lib/robot_keyboard
+writing list of installed files to '/home/nyp-bot/ydlidar_ros2_ws/src/build/robot_keyboard/install.log'

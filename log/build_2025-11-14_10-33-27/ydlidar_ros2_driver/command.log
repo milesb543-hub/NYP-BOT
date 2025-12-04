@@ -1,0 +1,2 @@
+Invoking command in '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver': /usr/bin/cmake /home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver
+Invoked command in '/home/nyp-bot/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '1': /usr/bin/cmake /home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nyp-bot/ydlidar_ros2_ws/install/ydlidar_ros2_driver

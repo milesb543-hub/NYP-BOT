@@ -1,0 +1,34 @@
+[11.226s] Invoking command in '/home/nyp-bot/ydlidar_ros2_ws/src/robot_keyboard': PYTHONPATH=/home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_keyboard build --build-base /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build install --record /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/install.log --single-version-externally-managed install_data
+[14.186s] running egg_info
+[14.189s] creating ../../build/robot_keyboard/robot_keyboard.egg-info
+[14.190s] writing ../../build/robot_keyboard/robot_keyboard.egg-info/PKG-INFO
+[14.191s] writing dependency_links to ../../build/robot_keyboard/robot_keyboard.egg-info/dependency_links.txt
+[14.191s] writing entry points to ../../build/robot_keyboard/robot_keyboard.egg-info/entry_points.txt
+[14.192s] writing requirements to ../../build/robot_keyboard/robot_keyboard.egg-info/requires.txt
+[14.193s] writing top-level names to ../../build/robot_keyboard/robot_keyboard.egg-info/top_level.txt
+[14.194s] writing manifest file '../../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[14.203s] reading manifest file '../../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[14.207s] writing manifest file '../../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[14.208s] running build
+[14.208s] running build_py
+[14.210s] creating /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build
+[14.211s] creating /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build/lib
+[14.212s] creating /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build/lib/robot_keyboard
+[14.212s] copying robot_keyboard/__init__.py -> /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build/lib/robot_keyboard
+[14.214s] running install
+[14.215s] running install_lib
+[14.215s] creating /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+[14.216s] copying /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build/lib/robot_keyboard/__init__.py -> /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+[14.231s] byte-compiling /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard/__init__.py to __init__.cpython-310.pyc
+[14.232s] running install_data
+[14.233s] creating /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/share/ament_index
+[14.233s] creating /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/share/ament_index/resource_index
+[14.234s] creating /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/share/ament_index/resource_index/packages
+[14.234s] copying resource/robot_keyboard -> /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/share/ament_index/resource_index/packages
+[14.235s] copying package.xml -> /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/share/robot_keyboard
+[14.235s] running install_egg_info
+[14.255s] Copying ../../build/robot_keyboard/robot_keyboard.egg-info to /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard-0.0.0-py3.10.egg-info
+[14.261s] running install_scripts
+[14.487s] Installing keyboard_test script to /home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/robot_keyboard
+[14.489s] writing list of installed files to '/home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/install.log'
+[14.699s] Invoked command in '/home/nyp-bot/ydlidar_ros2_ws/src/robot_keyboard' returned '0': PYTHONPATH=/home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nyp-bot/ydlidar_ros2_ws/install/robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_keyboard build --build-base /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/build install --record /home/nyp-bot/ydlidar_ros2_ws/build/robot_keyboard/install.log --single-version-externally-managed install_data

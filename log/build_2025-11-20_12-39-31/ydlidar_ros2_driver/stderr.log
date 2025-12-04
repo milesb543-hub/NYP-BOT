@@ -1,0 +1,9 @@
+In file included from [01m[K/usr/local/include/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/nyp-bot/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[01m[K/usr/local/include/core/common/DriverInterface.h:10:10:[m[K [01;31m[Kfatal error: [m[Kydlidar_config.h: No such file or directory
+   10 | #include [01;31m[K"ydlidar_config.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
