@@ -8,13 +8,13 @@ import os
 
 # --- CONFIG: adjust these to your pins + limits ---
 # BCM numbers
-PWMA_PIN = 12    # PWM for left motor (hardware PWM preferred)
-AIN1_PIN = 5
-AIN2_PIN = 6
+PWMA_PIN = 13    # PWM for left motor (hardware PWM preferred)	pin 33
+AIN1_PIN = 24	# pin 18
+AIN2_PIN = 27	# pin 13
 
-PWMB_PIN = 13    # PWM for right motor (or use another PWM pin)
-BIN1_PIN = 27
-BIN2_PIN = 22
+PWMB_PIN = 12    # PWM for right motor (or use another PWM pin) pin 32
+BIN1_PIN = 23	# pin 16
+BIN2_PIN = 17	# pin 11
 
 STBY_PIN = 25    # or tie to 3.3V if you don't need to control standby
 
